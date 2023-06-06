@@ -1,0 +1,59 @@
+// Swell Tab
+.swell-tab {
+  padding-top: 11px !important;
+}
+
+// Call for price
+// Call for price PDP
+.product-form-detail-container .cwsCallforPrice.btn {
+  border-radius: 0px !important;
+  width: 100% !important;
+  height: 44px !important;
+  &:hover {
+    background-color: $color-accent-2-200 !important;
+    opacity: 1 !important;
+  }
+}
+.product-form-detail-container .callPriceText {
+  font-family: $font-family-secondary !important;
+  font-size: rem(20) !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  line-height: 100%;
+}
+.product-form-detail-container .cfpnumber {
+  margin-top: 14px !important;
+}
+// Call for price Collection
+.collection-grid__container .cwsCallforPrice {
+  display: none !important;
+}
+.collection-grid__container .cfpnumber {
+  font-size: rem(12) !important;
+}
+
+.collection-grid__container .cfpnumber a {
+  font-size: rem(12) !important;
+}
+// Call for price Search Results
+.search-results-grid__products .cwsCallforPrice {
+  display: none !important;
+}
+.search-results-grid__products .cfpnumber {
+  font-size: rem(12) !important;
+}
+
+.search-results-grid__products .cfpnumber a {
+  font-size: rem(12) !important;
+}
+// Call for price Form
+#cwsCFPsubmit {
+  text-transform: uppercase !important;
+  font-family: 'acumin-pro-extra-condensed' !important;
+  font-size: 20px !important;
+  letter-spacing: 2px !important;
+  font-weight: 700 !important;
+  min-height: 46px !important;
+  line-height: 100% !important;
+  border-radius: 0px !important;
+}

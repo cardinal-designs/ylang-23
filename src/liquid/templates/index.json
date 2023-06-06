@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "hero-banner": {
+      "type": "hero-banner",
+      "settings": {
+        "max_width": "1440px",
+        "top_margin": 8,
+        "bottom_margin": 8,
+        "layout": "short",
+        "enable_text_box": false,
+        "text_box_bg_color": "bg-black",
+        "mobile_layout": "below",
+        "mobile_text_alignment": "center",
+        "horizontal_layout": "left",
+        "vertical_layout": "middle",
+        "background_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Desktop-2880x1088_e2e00c93-02b5-4e3a-b203-11ecae1ed795.jpg",
+        "enable_mobile_image": true,
+        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-750x496_d9d6a44d-9952-4c1d-8e93-021675e71caa.jpg",
+        "hero_url": "shopify:\/\/collections\/new-arrivals",
+        "url_aria_label": "Link to New Arrivals",
+        "video_url": "",
+        "enable_overlay": false,
+        "overlay_color": "bg-accent-1",
+        "content_background_color": "#ffffff",
+        "overlay_opacity": 0,
+        "pre_heading": "",
+        "heading": "",
+        "sub_heading": "",
+        "body_copy": "",
+        "pre_heading_color": "color-black",
+        "heading_color": "color-black",
+        "sub_heading_color": "color-black",
+        "body_copy_color": "color-black",
+        "mobile_bg_color": "",
+        "pre_heading_color_mobile": "color-black",
+        "heading_color_mobile": "color-black",
+        "sub_heading_color_mobile": "color-black",
+        "body_copy_color_mobile": "color-black",
+        "enable_cta": false,
+        "cta_color": "#000000",
+        "cta_bordercolor": "#000000",
+        "cta_textcolor": "#ffffff",
+        "cta_text": "Shop Now",
+        "cta_url": "shopify:\/\/collections\/new-arrivals"
+      }
+    },
+    "image-strip": {
+      "type": "image-strip",
+      "blocks": {
+        "782d35dd-b0f0-4d74-a98b-baf2a1e74a32": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_444c989c-4074-453f-8dc0-e8a8ee73ba11.jpg",
+            "itp_url": "shopify:\/\/collections\/foundrae",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to Foundrae"
+          }
+        },
+        "06ef17fa-6069-4c99-a260-fefd162d4d04": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_url": "",
+            "itp_link_target": "_self",
+            "link_aria_label": ""
+          }
+        },
+        "2938e6e3-c459-4a16-9cb0-618147d6140a": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-04-1360x1360_57fa06cd-91ea-405a-88e3-8462a0da6901.jpg",
+            "itp_url": "shopify:\/\/collections\/irene-neuwirth",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to Irene Neuwirth"
+          }
+        },
+        "309ad212-f126-41b6-9390-f200b5bf322e": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-05-1360x1360_d22dca84-b0c8-4890-ac1b-e18a4db6827e.jpg",
+            "itp_url": "shopify:\/\/collections\/hearts",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to Heart jewelry"
+          }
+        }
+      },
+      "block_order": [
+        "782d35dd-b0f0-4d74-a98b-baf2a1e74a32",
+        "06ef17fa-6069-4c99-a260-fefd162d4d04",
+        "2938e6e3-c459-4a16-9cb0-618147d6140a",
+        "309ad212-f126-41b6-9390-f200b5bf322e"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "column_gap": 8,
+        "row_gap": 0
+      }
+    },
+    "featured-designers": {
+      "type": "featured-designers",
+      "settings": {
+        "margin_top": 8,
+        "margin_bottom": 0,
+        "featured_designer_name": "New Arrivals",
+        "nameColor": "color-white",
+        "featured_designer_excerpt": "",
+        "excerptColor": "color-black",
+        "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_cdfd0b8c-e62d-45a6-ac45-ebf19ab63a66.jpg",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2.jpg",
+        "enable_cta": true,
+        "cta_text": "SHOP ALL",
+        "cta_color": "#ffffff",
+        "cta_layout": "link link--primary",
+        "cta_icon_color": "fill-white",
+        "arrow_color": "fill-black",
+        "featured_collection": "new-arrivals",
+        "heading": "Curated for you",
+        "amount": 32,
+        "bg_color": "bg-white",
+        "heading_color": "color-black"
+      }
+    },
+    "fifty-fifty": {
+      "type": "fifty-fifty",
+      "settings": {
+        "max_width": "1440px",
+        "margin_top": 8,
+        "margin_bottom": 0,
+        "ff_layout": "sw--reverse",
+        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-07-V2-Desktop-1556x940.jpg",
+        "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-07-V2-Mobile-686x460x2.jpg",
+        "ff_image_width": "sw--60",
+        "ff_preheader": "",
+        "ff_header": "Love & Luck",
+        "ff_subheader": "",
+        "ff_body": "",
+        "ff_text_alignment": "text-center",
+        "ff_background_color": "bg-white",
+        "ff_preheader_color": "color-black",
+        "ff_header_color": "color-black",
+        "ff_subheader_color": "color-accent-1",
+        "ff_body_color": "color-brand-secondary",
+        "ff_cta_text": "SHOP NOW",
+        "ff_cta_url": "shopify:\/\/collections\/love-and-luck",
+        "ff_cta_style": "button button--primary"
+      }
+    },
+    "shoppable-instagram": {
+      "type": "shoppable-instagram",
+      "settings": {
+        "title": ""
+      }
+    },
+    "seo-content": {
+      "type": "seo-content",
+      "settings": {
+        "margin_top": 56,
+        "margin_bottom": 56,
+        "scb_title": "",
+        "scb_content": "<p>Welcome to Ylang 23, where you can find a curated mix of jewelry collections from the world’s top contemporary designers, including <a href=\"https:\/\/www.ylang23.com\/collections\/foundrae\/\">Foundrae<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/jennifer-meyer\/\">Jennifer Meyer<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/maria-tash\/\">Maria Tash<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/marla-aaron\/\">Marla Aaron<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/cathy-waterman\/\">Cathy Waterman<\/a> and more. Shop by price, jewelry type, gemstone or designer.<br><br>\nYlang 23 is committed to showcasing designers whose creativity and craftsmanship help shape worldwide trends. We take the time to meet each of our designers and have intimate knowledge of their collections. <br><br>\nWe’ve been at this a long time. We were the first designer jewelry company to go online in 2000. Family-owned since 1985, Ylang 23 is dedicated to providing a best-in-class customer experience and we look forward to helping you find your dream collection. We’re also here to help you style your new jewelry collection with outfits, find ways to layer, and share advice on how to keep your jewelry sparkling.<\/p>"
+      }
+    },
+    "hp-nosto": {
+      "type": "hp-nosto",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "hero-banner",
+    "image-strip",
+    "featured-designers",
+    "fifty-fifty",
+    "shoppable-instagram",
+    "seo-content",
+    "hp-nosto"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "product-display-gift-card": {
+      "type": "product-display-gift-card"
+    }
+  },
+  "order": [
+    "product-display-gift-card"
+  ]
+}

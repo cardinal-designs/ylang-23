@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "hero": {
+      "type": "press-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Wildlike-2022-06-24-Position-05-Desktop-750x480x2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Wildlike-2022-06-24-Position-05-Mobile-778x662x2.jpg",
+        "text_color": "color-white",
+        "heading": "THE Wildlike Press",
+        "subheading": "",
+        "copy": "Insider Secrets. How to Guides. Behind the Scenes. Designer Insights. Think of it like the ultimate place to enjoy and better understand the world of fine jewelry."
+      }
+    },
+    "1658308641b6b7cac3": {
+      "type": "press-blocks",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1658308641b6b7cac3"
+  ]
+}

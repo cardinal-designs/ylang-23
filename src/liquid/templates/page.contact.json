@@ -1,0 +1,49 @@
+{
+  "wrapper": "div.contact-us",
+  "sections": {
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "form_enabled": true,
+        "title_text_color": "color-brand-secondary",
+        "success_message": "YOUR FORM HAS BEEN SUBMITTED SUCCESSFULLY",
+        "success_btn": "Continue Shopping",
+        "success_link": "shopify:\/\/collections\/new-arrivals"
+      }
+    },
+    "contact-info-blocks": {
+      "type": "contact-info-blocks",
+      "settings": {
+        "text_color": "color-black",
+        "bg_color": "",
+        "icon_color": "fill-black",
+        "phone": "214-234-0002",
+        "enable_address": true,
+        "street": "8300 Preston Road",
+        "city": "Suite 700",
+        "country": "Dallas, TX 75225",
+        "enable_social": true,
+        "enable_twitter": true,
+        "twitter_icon_color": "fill-brand-secondary",
+        "enable_instagram": true,
+        "instagram_icon_color": "fill-brand-secondary",
+        "enable_facebook": true,
+        "facebook_icon_color": "fill-brand-secondary",
+        "enable_pinterest": true,
+        "pinterest_icon_color": "fill-brand-secondary",
+        "enable_snapchat": false,
+        "snapchat_icon_color": "fill-brand-primary",
+        "enable_tumblr": false,
+        "tumblr_icon_color": "fill-brand-primary",
+        "enable_youtube": false,
+        "youtube_icon_color": "fill-brand-primary",
+        "enable_vimeo": false,
+        "vimeo_icon_color": "fill-brand-primary"
+      }
+    }
+  },
+  "order": [
+    "contact-form",
+    "contact-info-blocks"
+  ]
+}

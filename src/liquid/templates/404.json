@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "404-page": {
+      "type": "page--404",
+      "settings": {
+        "ff_layout": "sw--reverse",
+        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-404-Desktop-1360x1088_1.jpg",
+        "ff_image_width": "sw--60",
+        "ff_preheader": "",
+        "ff_header": "Oops!",
+        "ff_subheader": "",
+        "ff_body": "<p>The page you are looking for couldn't be found. To give it another try, you can search for jewelry, designers, and more in the above search bar, or head over to our homepage.<\/p>",
+        "ff_text_alignment": "",
+        "ff_background_color": "bg-white",
+        "ff_preheader_color": "color-black",
+        "ff_header_color": "color-black",
+        "ff_subheader_color": "color-black",
+        "ff_body_color": "color-black",
+        "ff_cta_text": "Return to Shopping",
+        "ff_cta_url": "https:\/\/ylang2-3.myshopify.com\/",
+        "ff_cta_style": "button button--primary"
+      }
+    }
+  },
+  "order": [
+    "404-page"
+  ]
+}

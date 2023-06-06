@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "faq-page": {
+      "type": "page--faq"
+    }
+  },
+  "order": [
+    "faq-page"
+  ]
+}

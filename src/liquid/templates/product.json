@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "product-display-bourdain": {
+      "type": "product-display-bourdain",
+      "settings": {
+        "pdp_accordion_name": "Shipping",
+        "pdp_accordion_content": "<p>Free 2 day shipping and returns. Any order over $1,500 receives free overnight shipping.<\/p>",
+        "pdp_recommendations_heading": "You May Also Like",
+        "pdp_global_info_section_heading": "",
+        "pdp_global_info_section_heading_color": "#ffffff",
+        "pdp_product_rec_sidebar_heading": "",
+        "pdp_value_props_background_color": "#F7F6F5",
+        "pdp_vp_icon_0": "shopify:\/\/shop_images\/prop_shipping.png",
+        "pdp_vp_title_0": "FREE & FAST SHIPPING",
+        "pdp_vp_body_0": "All orders ship free. Any order over $1,500+ receives free overnight shipping.",
+        "pdp_vp_icon_1": "shopify:\/\/shop_images\/prop_returns.png",
+        "pdp_vp_title_1": "FREE & EASY RETURNS",
+        "pdp_vp_body_1": "We want you to be completely happy with your purchase!",
+        "pdp_vp_icon_2": "shopify:\/\/shop_images\/prop_service.png",
+        "pdp_vp_title_2": "TOP SERVICE & EXPERTISE",
+        "pdp_vp_body_2": "Once you've experienced Ylang 23's level of service, you won't want to shop any place else.",
+        "pdp_vp_icon_3": "shopify:\/\/shop_images\/prop_gift.png",
+        "pdp_vp_title_3": "FREE GIFT WRAPPING",
+        "pdp_vp_body_3": "Every gift is personally gift wrapped and shipped within a day to your specifications.",
+        "cl_heading": "",
+        "cl_heading_color": "color-black",
+        "cl_background_color": "bg-white"
+      }
+    }
+  },
+  "order": [
+    "product-display-bourdain"
+  ]
+}

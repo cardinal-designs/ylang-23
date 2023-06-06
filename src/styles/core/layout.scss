@@ -1,0 +1,58 @@
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-white;
+  box-sizing: border-box;
+}
+
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+// Utility styles to debug errant containers causing horizontal overflow
+// * {
+//   background: #000 !important;
+//   color: #0f0 !important;
+//   outline: solid #f00 1px !important;
+// }
+
+table {
+  width: 100% !important; // to override widths set in the general page admin in Shopify
+}
+
+.layout--minimal {
+  #app,
+  #MainContent {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.layout--default {
+
+  #MainContent {
+    padding-top: 104px;
+
+    @include desktop-up {
+      padding-top: 156px;
+    }
+  }
+}
+
+#app {
+  position: relative;
+}

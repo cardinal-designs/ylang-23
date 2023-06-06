@@ -1,0 +1,50 @@
+@include link;
+
+
+// ~
+// ~
+// PRIMARY
+// ~
+// ~
+@include link--primary;
+
+// ~
+// ~
+// SECONDARY
+// ~
+// ~
+@include link--secondary;
+
+// ~
+// ~
+// TERTIARY
+// ~
+// ~
+@include link--tertiary;
+
+
+
+// PLAIN 
+@include link-text;
+
+.template-page#MainContent {
+  a {
+    &:not(.link--primary), &:not(.link--secondary), &:not(.link--tertiary), &:not(.button) {
+      color: $color-black-900;
+      text-decoration: underline;
+      &:hover {
+        color: $color-brand-secondary;
+      }
+    }
+  }
+}
+
+@if $auto-link-color-switch {  
+  @each $class in $dark-color-classes {
+    .#{$class} {
+      @each $type in primary, secondary, tertiary  {
+        @include automatic-color-link-style($type); 
+      }
+    }
+  }
+}
