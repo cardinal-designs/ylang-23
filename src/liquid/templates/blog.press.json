@@ -3,8 +3,7 @@
     "hero": {
       "type": "press-hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wildlike-2022-06-24-Position-05-Desktop-750x480x2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Wildlike-2022-06-24-Position-05-Mobile-778x662x2.jpg",
+        "image": "shopify:\/\/shop_images\/Blog_Landing_Page.jpg",
         "text_color": "color-white",
         "heading": "THE Wildlike Press",
         "subheading": "",

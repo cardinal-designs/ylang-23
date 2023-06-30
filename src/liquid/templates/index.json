@@ -13,11 +13,11 @@
         "mobile_text_alignment": "center",
         "horizontal_layout": "left",
         "vertical_layout": "middle",
-        "background_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Desktop-2880x1088_e2e00c93-02b5-4e3a-b203-11ecae1ed795.jpg",
+        "background_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Desktop-2880x1088_ea156225-c4b1-4275-8052-e7cbece936fa.jpg",
         "enable_mobile_image": true,
-        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-750x496_d9d6a44d-9952-4c1d-8e93-021675e71caa.jpg",
-        "hero_url": "shopify:\/\/collections\/new-arrivals",
-        "url_aria_label": "Link to New Arrivals",
+        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-767x630_fb22f503-6edb-405a-8139-089f2d634a2d.jpg",
+        "hero_url": "shopify:\/\/collections\/lito",
+        "url_aria_label": "Link to Lito",
         "video_url": "",
         "enable_overlay": false,
         "overlay_color": "bg-accent-1",
@@ -41,7 +41,7 @@
         "cta_bordercolor": "#000000",
         "cta_textcolor": "#ffffff",
         "cta_text": "Shop Now",
-        "cta_url": "shopify:\/\/collections\/new-arrivals"
+        "cta_url": "shopify:\/\/collections\/lito"
       }
     },
     "image-strip": {
@@ -50,42 +50,33 @@
         "782d35dd-b0f0-4d74-a98b-baf2a1e74a32": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_444c989c-4074-453f-8dc0-e8a8ee73ba11.jpg",
-            "itp_url": "shopify:\/\/collections\/foundrae",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_cb913d61-f4e4-417b-a637-f31be5c472f6.jpg",
+            "itp_url": "shopify:\/\/collections\/gemstone-jewelry",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Foundrae"
-          }
-        },
-        "06ef17fa-6069-4c99-a260-fefd162d4d04": {
-          "type": "testimonial_block",
-          "settings": {
-            "itp_url": "",
-            "itp_link_target": "_self",
-            "link_aria_label": ""
+            "link_aria_label": "Link to Gemstone Jewelry"
           }
         },
         "2938e6e3-c459-4a16-9cb0-618147d6140a": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-04-1360x1360_57fa06cd-91ea-405a-88e3-8462a0da6901.jpg",
-            "itp_url": "shopify:\/\/collections\/irene-neuwirth",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-04-1360x1360_26f5385e-9de4-449c-8302-8774b5eeb96d.jpg",
+            "itp_url": "shopify:\/\/collections\/necklaces",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Irene Neuwirth"
+            "link_aria_label": "Link to Necklaces"
           }
         },
         "309ad212-f126-41b6-9390-f200b5bf322e": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-05-1360x1360_d22dca84-b0c8-4890-ac1b-e18a4db6827e.jpg",
-            "itp_url": "shopify:\/\/collections\/hearts",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-05-1360x1360_dc851292-b7b2-4cc5-a114-94f1c107452f.jpg",
+            "itp_url": "shopify:\/\/collections\/earrings",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Heart jewelry"
+            "link_aria_label": "Link to Earrings"
           }
         }
       },
       "block_order": [
         "782d35dd-b0f0-4d74-a98b-baf2a1e74a32",
-        "06ef17fa-6069-4c99-a260-fefd162d4d04",
         "2938e6e3-c459-4a16-9cb0-618147d6140a",
         "309ad212-f126-41b6-9390-f200b5bf322e"
       ],
@@ -107,8 +98,10 @@
         "nameColor": "color-white",
         "featured_designer_excerpt": "",
         "excerptColor": "color-black",
-        "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_cdfd0b8c-e62d-45a6-ac45-ebf19ab63a66.jpg",
-        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2.jpg",
+        "underlayColor": "bg-white",
+        "opacity": 0,
+        "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_2806a82d-8584-4bd4-9e21-fd2210f53959.jpg",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_9ef56e85-e7c7-445d-ad05-be55e0b28e5c.jpg",
         "enable_cta": true,
         "cta_text": "SHOP ALL",
         "cta_color": "#ffffff",
@@ -129,11 +122,11 @@
         "margin_top": 8,
         "margin_bottom": 0,
         "ff_layout": "sw--reverse",
-        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-07-V2-Desktop-1556x940.jpg",
-        "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-07-V2-Mobile-686x460x2.jpg",
+        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-07-Desktop-1556x940_7760e7d6-c655-4e63-a577-2c558c840c10.jpg",
+        "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-07-Mobile-686x460x2_491141c3-9ba1-4c77-9350-bfcb3ea21e56.jpg",
         "ff_image_width": "sw--60",
         "ff_preheader": "",
-        "ff_header": "Love & Luck",
+        "ff_header": "Gemstones",
         "ff_subheader": "",
         "ff_body": "",
         "ff_text_alignment": "text-center",
@@ -143,7 +136,7 @@
         "ff_subheader_color": "color-accent-1",
         "ff_body_color": "color-brand-secondary",
         "ff_cta_text": "SHOP NOW",
-        "ff_cta_url": "shopify:\/\/collections\/love-and-luck",
+        "ff_cta_url": "shopify:\/\/collections\/gemstone-jewelry",
         "ff_cta_style": "button button--primary"
       }
     },
@@ -166,6 +159,18 @@
       "type": "hp-nosto",
       "settings": {
       }
+    },
+    "00aa43df-8fdd-4e5f-95a6-4bb7fb666ae9": {
+      "type": "nasto-custom",
+      "disabled": true,
+      "settings": {
+        "featured_designer_name": "New Arrivals",
+        "enable_cta": true,
+        "cta_text": "Shop All",
+        "cta_url": "",
+        "cta_color": "#ffffff",
+        "nosto_html": "<div class=\"nosto_element\" id=\"homepage-nosto-curated-for-you\"><\/div>"
+      }
     }
   },
   "order": [
@@ -175,6 +180,7 @@
     "fifty-fifty",
     "shoppable-instagram",
     "seo-content",
-    "hp-nosto"
+    "hp-nosto",
+    "00aa43df-8fdd-4e5f-95a6-4bb7fb666ae9"
   ]
 }

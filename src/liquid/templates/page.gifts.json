@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "default-page": {
+      "type": "page--default",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "2081ad99-1e0b-48fd-8a97-f1b75f9d9662": {
+      "type": "hero-banner",
+      "settings": {
+        "max_width": "none",
+        "top_margin": 8,
+        "bottom_margin": 8,
+        "layout": "short",
+        "enable_text_box": false,
+        "text_box_bg_color": "",
+        "mobile_layout": "overlay",
+        "mobile_text_alignment": "left",
+        "horizontal_layout": "left",
+        "vertical_layout": "top",
+        "background_image": "shopify:\/\/shop_images\/Shop_Gifts_Hero_Image.jpg",
+        "enable_mobile_image": false,
+        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_mobile.jpg",
+        "hero_url": "",
+        "url_aria_label": "Lifestyle featuring mixed designer rings",
+        "video_url": "",
+        "enable_overlay": false,
+        "overlay_color": "bg-brand-primary",
+        "content_background_color": "#ffffff",
+        "overlay_opacity": 50,
+        "pre_heading": "",
+        "heading": "",
+        "sub_heading": "",
+        "body_copy": "",
+        "pre_heading_color": "color-black",
+        "heading_color": "color-black",
+        "sub_heading_color": "color-black",
+        "body_copy_color": "color-black",
+        "mobile_bg_color": "bg-brand-primary",
+        "pre_heading_color_mobile": "color-black",
+        "heading_color_mobile": "color-black",
+        "sub_heading_color_mobile": "color-black",
+        "body_copy_color_mobile": "color-black",
+        "enable_cta": false,
+        "cta_color": "#000000",
+        "cta_bordercolor": "#000000",
+        "cta_textcolor": "#ffffff",
+        "cta_text": "",
+        "cta_url": ""
+      }
+    },
+    "a66c772f-beb8-4824-bc65-eb16b924f050": {
+      "type": "image-strip",
+      "blocks": {
+        "f5247c62-d876-4f74-adee-ce5e405ce7af": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/small_gestures.jpg",
+            "itp_url": "shopify:\/\/collections\/gifts-under-1001",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to gifts under $1,000"
+          }
+        },
+        "6b910f36-9716-4001-9a3c-4eddfebd915d": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_1.jpg",
+            "itp_url": "shopify:\/\/collections\/splurge-worthy-gifts",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to gifts over $5,000"
+          }
+        },
+        "90e0dd96-260d-4969-a6e3-4c743930a83e": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/Most_Wanted.jpg",
+            "itp_url": "shopify:\/\/collections\/best-sellers",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to best sellers collection"
+          }
+        }
+      },
+      "block_order": [
+        "f5247c62-d876-4f74-adee-ce5e405ce7af",
+        "6b910f36-9716-4001-9a3c-4eddfebd915d",
+        "90e0dd96-260d-4969-a6e3-4c743930a83e"
+      ],
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "column_gap": 8,
+        "row_gap": 8
+      }
+    },
+    "dbf7fbf1-4721-4d1f-bc88-bef24c97b95e": {
+      "type": "image-strip",
+      "blocks": {
+        "f61e26ff-12dd-4495-a5a6-9a7b4758f6ac": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/For_her_update.jpg",
+            "itp_url": "shopify:\/\/collections\/gifts-for-her",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to gifts for her collection"
+          }
+        },
+        "ab334fa6-33bd-451b-920d-6901686fe8aa": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/for_all.jpg",
+            "itp_url": "shopify:\/\/collections\/y23-mens-picks",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to men's picks collection"
+          }
+        },
+        "61d0b07d-1c6a-48fc-ac83-04e00793a185": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/For_Mom.jpg",
+            "itp_url": "shopify:\/\/collections\/gifts-for-mom",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to gifts for mom collection"
+          }
+        }
+      },
+      "block_order": [
+        "f61e26ff-12dd-4495-a5a6-9a7b4758f6ac",
+        "ab334fa6-33bd-451b-920d-6901686fe8aa",
+        "61d0b07d-1c6a-48fc-ac83-04e00793a185"
+      ],
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "column_gap": 8,
+        "row_gap": 8
+      }
+    },
+    "e20df825-dcbc-425e-b9ad-ad6f41c49508": {
+      "type": "image-strip",
+      "blocks": {
+        "4bb42355-0750-40a9-bd99-3085c7f6d852": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/For_Birthdays.jpg",
+            "itp_url": "shopify:\/\/collections\/birthday-gifts",
+            "itp_link_target": "_self",
+            "link_aria_label": "Links to birthday gifts collection"
+          }
+        },
+        "9bc3478b-b240-41bb-b3fb-539a56657d9d": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/For_the_grad.jpg",
+            "itp_url": "shopify:\/\/collections\/gifts-for-grad",
+            "itp_link_target": "_self",
+            "link_aria_label": "Links to gifts for the grad collection"
+          }
+        },
+        "663b5945-462e-4816-a256-48e537ec995f": {
+          "type": "testimonial_block",
+          "settings": {
+            "itp_logo": "shopify:\/\/shop_images\/For_Anniversaries.jpg",
+            "itp_url": "shopify:\/\/collections\/for-anniversaries",
+            "itp_link_target": "_self",
+            "link_aria_label": "Link to gifts for anniversaries collection"
+          }
+        }
+      },
+      "block_order": [
+        "4bb42355-0750-40a9-bd99-3085c7f6d852",
+        "9bc3478b-b240-41bb-b3fb-539a56657d9d",
+        "663b5945-462e-4816-a256-48e537ec995f"
+      ],
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "padding_left": 0,
+        "padding_right": 0,
+        "column_gap": 8,
+        "row_gap": 8
+      }
+    },
+    "1e87d573-55e0-4c17-8369-c671d2347ff5": {
+      "type": "full-width-text-block",
+      "settings": {
+        "copy": "<p>Are you looking for the perfect gift to celebrate your significant other or a couple you adore? We have all the best designer necklaces, bracelets, charms, earrings, and rings to make this anniversary truly special. Not sure where to start? Our <a href=\"https:\/\/www.ylang23.com\/pages\/anniversary-jewelry-buying-guide\"><span style=\"text-decoration:underline\">anniversary buying guide<\/span><\/a> has everything you need to choose delightful jewelry gifts for all sorts of anniversaries.  <\/p>"
+      }
+    }
+  },
+  "order": [
+    "default-page",
+    "2081ad99-1e0b-48fd-8a97-f1b75f9d9662",
+    "a66c772f-beb8-4824-bc65-eb16b924f050",
+    "dbf7fbf1-4721-4d1f-bc88-bef24c97b95e",
+    "e20df825-dcbc-425e-b9ad-ad6f41c49508",
+    "1e87d573-55e0-4c17-8369-c671d2347ff5"
+  ]
+}
