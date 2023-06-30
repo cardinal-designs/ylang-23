@@ -1,14 +1,16 @@
 <div class="nosto_element" id="{{ nosto-element }}"></div>
-<div class="featured-designer featured-designer__container best__seller--wrapper">
+<div class="featured-designer featured-designer__container best__seller--wrapper featured__designer--custom">
   <div class="container bg-white">
     <div class="featured-designer__details">
       <div class="featured-designer__text">
         <h2 class="color-white">{{ section.settings.featured_designer_name }}</h2>
         <a href={{ section.settings.cta_url }}>{{ section.settings.cta_text }}
-        <svg data-v-9dd96b3e="" class="icon icon--arrow-right fill-white" data-v-f90b56be="" style="height: 14px; width: 14px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg>
+        <svg class="icon icon--arrow-right fill-white" data-style="height: 14px; width: 14px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg>
         </a>
       </div>
-      <div class="featured-designer__inner-image featured-designer__inner-image-desktop">
+      <div class="featured-designer__inner-image featured-designer__inner-image-desktop" data-style="background-image: url('{{ section.settings.featured_designer_image_desktop | img_url: 'master' }}');">
+      </div>
+      <div class="featured-designer__inner-image featured-designer__inner-image-mobile" data-style="background-image: url('{{ section.settings.featured_designer_image_mb | img_url: 'master' }}')">
       </div>
     </div>
     <div class="featured-designer__products-container">
@@ -35,6 +37,11 @@
         "id": "featured_designer_name",
         "label": "Name",
         "info": "New Arrivals"
+      },
+      {
+        "type": "image_picker",
+        "id": "featured_designer_image_desktop",
+        "label": "Image - Desktop"
       },
       {
         "type": "image_picker",

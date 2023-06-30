@@ -10,4 +10,11 @@ customElements.define('custom-style',class customStyle extends HTMLElement {
           console.log('Custom Style')
       },1000);
     }
-  })
+  });
+
+  document.querySelectorAll('[data-style]').forEach(element => {
+    console.log(element)
+    let styles = element.dataset.style;
+    element.removeAttribute('data-style');
+    element.setAttribute('style',styles);
+  });
