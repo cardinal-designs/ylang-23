@@ -6,6 +6,13 @@
 <div class="nosto_page_type" style="display:none">cart</div>
 {% endif %}
 
+{% if localization.market %}
+<div class="nosto_market" style="display:none">
+    <span class="id">{{ localization.market.id }}</span>
+    <span class="locale">{{ localization.language.iso_code }}</span>
+</div>
+{% endif %}
+
 {% if shop.money_format contains "{{amount_with_comma_separator}}" %}
 {% assign thousand_separator = '.' %}
 {% elsif shop.money_format contains "{{amount}}" %}
@@ -107,6 +114,7 @@
 <div class="nosto_cart" style="display:none">
     {% assign restorecart = '' %}
     {% for line_item in cart.items %}
+    {% if line_item.product.id %}
     <div class="line_item">
         {% if restorecart != '' %}
         {% assign restorecart = restorecart | append: ',' %}
@@ -119,6 +127,7 @@
         <span class="unit_price">{{ line_item.price | money_without_currency | remove: thousand_separator }}</span>
         <span class="price_currency_code">{{ cart.currency.iso_code }}</span>
     </div>
+    {% endif %}
     {% endfor %}
     {% if restorecart != '' %}
     <span class="restore_link">{{ shop.secure_url }}/cart/{{restorecart}}</span>
@@ -151,13 +160,15 @@
 </script>
 <div class="nosto_cart" style="display:none">
     {% for line_item in checkout.line_items %}
-    <div class="line_item">
-        <span class="product_id">{{ line_item.product.id }}</span>
-        <span class="quantity">{{ line_item.quantity }}</span>
-        <span class="name">{{ line_item.title }}</span>
-        <span class="unit_price">{{ line_item.price | money_without_currency | remove: thousand_separator }}</span>
-        <span class="price_currency_code">{{ cart.currency.iso_code }}</span>
-    </div>
+      {% if line_item.product.id %}
+        <div class="line_item">
+            <span class="product_id">{{ line_item.product.id }}</span>
+            <span class="quantity">{{ line_item.quantity }}</span>
+            <span class="name">{{ line_item.title }}</span>
+            <span class="unit_price">{{ line_item.price | money_without_currency | remove: thousand_separator }}</span>
+            <span class="price_currency_code">{{ cart.currency.iso_code }}</span>
+        </div>
+      {% endif %}
     {% endfor %}
 </div>
 {% endif %}

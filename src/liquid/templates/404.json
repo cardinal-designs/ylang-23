@@ -20,9 +20,30 @@
         "ff_cta_url": "https:\/\/ylang2-3.myshopify.com\/",
         "ff_cta_style": "button button--primary"
       }
+    },
+    "notfound-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "notfound-nosto-1"
+      }
+    },
+    "notfound-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "notfound-nosto-2"
+      }
+    },
+    "notfound-nosto-3": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "notfound-nosto-3"
+      }
     }
   },
   "order": [
-    "404-page"
+    "404-page",
+    "notfound-nosto-1",
+    "notfound-nosto-2",
+    "notfound-nosto-3"
   ]
 }

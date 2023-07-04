@@ -2,10 +2,39 @@
   "sections": {
     "search": {
       "type": "search",
-      "settings": {}
+      "settings": {
+      }
+    },
+    "searchpage-nosto-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "searchpage-nosto-1"
+      }
+    },
+    "searchpage-nosto-2": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "searchpage-nosto-2"
+      }
+    },
+    "nosto-search-1": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "nosto-search-1"
+      }
+    },
+    "searchpage-above-footer": {
+      "type": "nosto-placement",
+      "settings": {
+        "placement": "searchpage-above-footer"
+      }
     }
   },
   "order": [
-    "search"
+    "searchpage-nosto-1",
+    "search",
+    "searchpage-nosto-2",
+    "nosto-search-1",
+    "searchpage-above-footer"
   ]
 }

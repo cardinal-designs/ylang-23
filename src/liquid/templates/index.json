@@ -89,8 +89,22 @@
         "row_gap": 0
       }
     },
+    "7a4da0a8-88fe-4592-833a-d4ded606e5fa": {
+      "type": "nasto-custom",
+      "settings": {
+        "featured_designer_name": "New Arrivals",
+        "featured_designer_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_2b93e8d7-0bfc-480a-87fb-907c5439642a.jpg",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_1719d0c8-8be7-4250-aa8b-b65dc92b5fea.jpg",
+        "enable_cta": false,
+        "cta_text": "Shop All",
+        "cta_url": "",
+        "cta_color": "#ffffff",
+        "nosto_html": "<div class=\"nosto_element\" id=\"homepage-nosto-curated\"><\/div>"
+      }
+    },
     "featured-designers": {
       "type": "featured-designers",
+      "disabled": true,
       "settings": {
         "margin_top": 8,
         "margin_bottom": 0,
@@ -159,28 +173,16 @@
       "type": "hp-nosto",
       "settings": {
       }
-    },
-    "00aa43df-8fdd-4e5f-95a6-4bb7fb666ae9": {
-      "type": "nasto-custom",
-      "disabled": true,
-      "settings": {
-        "featured_designer_name": "New Arrivals",
-        "enable_cta": true,
-        "cta_text": "Shop All",
-        "cta_url": "",
-        "cta_color": "#ffffff",
-        "nosto_html": "<div class=\"nosto_element\" id=\"homepage-nosto-curated-for-you\"><\/div>"
-      }
     }
   },
   "order": [
     "hero-banner",
     "image-strip",
+    "7a4da0a8-88fe-4592-833a-d4ded606e5fa",
     "featured-designers",
     "fifty-fifty",
     "shoppable-instagram",
     "seo-content",
-    "hp-nosto",
-    "00aa43df-8fdd-4e5f-95a6-4bb7fb666ae9"
+    "hp-nosto"
   ]
 }
