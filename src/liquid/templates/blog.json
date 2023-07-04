@@ -1,13 +1,22 @@
 {
   "sections": {
     "blog-category-hero": {
-      "type": "blog-category-hero"
+      "type": "blog-category-hero",
+      "settings": {
+      }
     },
     "blog-category-links": {
-      "type": "blog-category-links"
+      "type": "blog-category-links",
+      "settings": {
+      }
     },
     "blog-grid": {
-      "type": "blog-grid"
+      "type": "blog-grid",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

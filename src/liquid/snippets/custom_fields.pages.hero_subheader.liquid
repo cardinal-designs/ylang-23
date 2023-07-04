@@ -1,0 +1,13 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/ylang2-3.myshopify.com/pages/configure/223098/edit
+{% endcomment %}
+{% if page.metafields.custom_fields["hero_subheader"] != blank %}
+  <div class="custom-field custom-field__hero-subheader custom-field__type--text">
+    <h3 class="custom-field--title">hero_subheader</h3>
+    <div class="custom-field--value">
+      {{ page.metafields.custom_fields["hero_subheader"] }}
+    </div>
+  </div>
+{% endif %}

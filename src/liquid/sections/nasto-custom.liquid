@@ -1,0 +1,93 @@
+<div class="nosto_element" id="{{ nosto-element }}"></div>
+<div class="featured-designer featured-designer__container best__seller--wrapper featured__designer--custom">
+  <div class="container bg-white">
+    <div class="featured-designer__details">
+      <div class="featured-designer__text">
+        <h2 class="color-white">{{ section.settings.featured_designer_name }}</h2>
+        <a href={{ section.settings.cta_url }}>{{ section.settings.cta_text }}
+        <svg class="icon icon--arrow-right fill-white" style="height: 14px; width: 14px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg>
+        </a>
+      </div>
+      <div class="featured-designer__inner-image featured-designer__inner-image-desktop" data-style="background-image: url('{{ section.settings.featured_designer_image_desktop | img_url: 'master' }}');">
+      </div>
+      <div class="featured-designer__inner-image featured-designer__inner-image-mobile" data-style="background-image: url('{{ section.settings.featured_designer_image_mb | img_url: 'master' }}')">
+      </div>
+    </div>
+    <div class="featured-designer__products-container">
+      <div class="featured-designer__products">
+        <div class="featured-designer__carousel best__seller--carousel">
+          {{ section.settings.nosto_html }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Nosto Custom",
+    "class": "featured-designer",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Designer Details"
+      },
+      {
+        "type": "text",
+        "id": "featured_designer_name",
+        "label": "Name",
+        "info": "New Arrivals"
+      },
+      {
+        "type": "image_picker",
+        "id": "featured_designer_image_desktop",
+        "label": "Image - Desktop"
+      },
+      {
+        "type": "image_picker",
+        "id": "featured_designer_image_mb",
+        "label": "Image - Mobile"
+      },
+      {
+        "type": "header",
+        "content": "CTA",
+        "info": "CTA config"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_cta",
+        "label": "Enable CTA",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "cta_text",
+        "label": "CTA Text",
+        "default": "Shop All"
+      },
+      {
+        "type": "text",
+        "id": "cta_url",
+        "label": "CTA URL"
+      },
+      {
+        "type": "color",
+        "id": "cta_color",
+        "label": "CTA Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "textarea",
+        "id": "nosto_html",
+        "label": "Nosto container",
+        "info": "Copy the code from your Nosto admin"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Nosto Custom",
+        "category": "Products"
+      }
+    ]
+  }
+{% endschema %}

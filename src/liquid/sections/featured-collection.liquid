@@ -83,14 +83,14 @@
         "type":      "select",
         "id":        "bg_color",
         "label":     "Background Color",
-        "options": <%- uikit.backgroundOptions -%>,
+        "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
         "default": "bg-brand-primary"
       },
       {
         "type":      "select",
         "id":        "heading_color",
         "label":     "Heading Color",
-        "options": <%- uikit.colorOptions -%>,
+        "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
         "default": "color-black"
       },
       {
@@ -108,14 +108,14 @@
         "type":      "select",
         "id":        "cta_layout",
         "label":     "CTA Style",
-        "options": <%- uikit.buttonAndLinkOptions -%>,
+        "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}],
         "default":   "button button--primary"
       },
       {
         "type":      "select",
         "id":        "arrow_color",
         "label":     "Icon Color",
-        "options": <%- uikit.fillOptions -%>,
+        "options": [{"label":"Primary","value":"fill-brand-primary"},{"label":"Secondary","value":"fill-brand-secondary"},{"label":"Accent 1","value":"fill-accent-1"},{"label":"Accent 2","value":"fill-accent-2"},{"label":"Accent 3","value":"fill-accent-3"},{"label":"Accent 4","value":"fill-accent-4"},{"label":"Accent 5","value":"fill-accent-5"},{"label":"White","value":"fill-white"},{"label":"Light Grey","value":"fill-light-grey"},{"label":"Grey","value":"fill-grey"},{"label":"Off Black","value":"fill-off-black"},{"label":"Black","value":"fill-black"}],
         "default": "fill-black"
       }
     ],

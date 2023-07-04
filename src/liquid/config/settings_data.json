@@ -1,0 +1,949 @@
+{
+  "current": {
+    "share_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-767x630NEW.jpg",
+    "social_sharing_blog": true,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "https:\/\/twitter.com\/ylang23?lang=en",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Ylang23\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.de\/ylang23\/_created\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/ylang23\/?hl=en",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "gtm_id": "PWCF4F",
+    "lucky_orange_id": "",
+    "enable_cj_cookie": false,
+    "first_helper_text": "",
+    "first_helper_url": "",
+    "second_helper_text": "My Account",
+    "second_helper_url": "https:\/\/ylang2-3.myshopify.com\/account\/login?return_url=%2Faccount",
+    "second_helper_menu": "",
+    "desktop_second_helper_image": "",
+    "mobile_second_helper_image": "",
+    "desktop_second_helper_svg": "",
+    "mobile_second_helper_svg": "",
+    "help_account_color": "color-black",
+    "collection_pagination_count": "24",
+    "disable_collection_sidebar": false,
+    "disable_collection_filters": false,
+    "collection_global_linklist": "",
+    "collection_default_custom_linklist": "",
+    "collection_hero_bg_color": "bg-brand-primary",
+    "collection_hero_heading_color": "color-black",
+    "collection_hero_copy_color": "color-black",
+    "login_heading": "Welcome!",
+    "login_blurb": "Set up an Ylang 23 account and enjoy a faster and more personalized experience. \n\nFor returning customers, to reactivate your account on our new website, click \"Create Account\" and follow the instructions using the same email address as your prior account. This will securely transfer all your account information and applicable reward points. We hope you enjoy our new website!",
+    "account_help_title": "Need Help?!",
+    "account_help_email": "concierge@ylang23.com",
+    "account_help_phone": "214-234-0002",
+    "account_image": "",
+    "no_orders_link": "shopify:\/\/pages\/about",
+    "account_link_1_title": "My Rewards",
+    "account_link_1_link": "shopify:\/\/pages\/rewards",
+    "account_link_2_title": "",
+    "account_link_2_link": "",
+    "account_ccpa_title": "Privacy Policy",
+    "account_ccpa_link": "shopify:\/\/pages\/privacy-policy",
+    "cart_enable_modal": false,
+    "cart_bubble": "bg-black",
+    "cart_bubble_text": "color-black",
+    "cart_shipping_promo_enable": false,
+    "cart_shipping_promo_total": "50",
+    "cart_shipping_promo_copy": "Congrats! You get free shipping",
+    "cart_shipping_bg": "bg-brand-primary",
+    "cart_shipping_text": "color-white",
+    "cart_continue_link": "shopify:\/\/collections\/new-arrivals",
+    "cart_shipping_progress": "bg-brand-tertiary",
+    "cart_promo_message": "Free 2 Day Shipping on All U.S. Orders",
+    "cart_empty_message": "Your cart is empty.",
+    "cart_link_text_1": "Shop Necklaces",
+    "cart_empty_url_1": "shopify:\/\/collections\/necklaces",
+    "cart_link_text_2": "Shop Earrings",
+    "cart_empty_url_2": "shopify:\/\/collections\/earrings",
+    "cart_link_text_3": "Shop Rings",
+    "cart_empty_url_3": "shopify:\/\/collections\/rings",
+    "cart_link_text_4": "Shop Bracelets",
+    "cart_empty_url_4": "shopify:\/\/collections\/bracelets",
+    "cart_link_text_5": "",
+    "cart_empty_url_5": "",
+    "html_block": "",
+    "css_block": "",
+    "favicon": "shopify:\/\/shop_images\/Ylang-23-Favicon-32x32.png",
+    "product_tile_text_alignment": "text-left",
+    "enable_simple_tile": false,
+    "enable_simple_tile_cta": false,
+    "product_tile_subtitle_pretext": "test",
+    "display_sku_pdp": false,
+    "display_vendor_pdp": false,
+    "compare_price_color": "color-accent-5",
+    "badge_sale_copy_color": "color-brand-primary",
+    "badge_sale_bg_color": "bg-brand-secondary",
+    "badge_new_copy_color": "color-brand-primary",
+    "badge_new_bg_color": "bg-brand-secondary",
+    "badge_limited_copy_color": "color-brand-primary",
+    "badge_limited_bg_color": "bg-brand-secondary",
+    "badge_best_seller_copy_color": "color-brand-primary",
+    "badge_best_seller_bg_color": "bg-brand-secondary",
+    "badge_clearance_copy_color": "color-black",
+    "badge_clearance_bg_color": "bg-accent-1",
+    "badge_dotw_copy_color": "color-black",
+    "badge_dotw_bg_color": "bg-accent-1",
+    "disable_reviews": false,
+    "reviews_star_whole": "",
+    "reviews_star_half": "",
+    "reviews_star_empty": "",
+    "call_for_price_number": "(214) 234-0002",
+    "search_shop_cta_text": "Explore Our New Arrivals",
+    "search_shop_cta_url": "shopify:\/\/collections\/new-arrivals",
+    "enable_predictive_search": true,
+    "header_variation": "design_1",
+    "footer_design": "ramsay",
+    "pdp_design": "RamsayProductDisplay",
+    "collection_template": "b",
+    "pobox_disabled": true,
+    "pobox_error_message": "Sorry, we ship all orders via FEDEX and cannot ship to PO boxes!",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Ylang-23-Position-02-192x192.jpg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "collections_global_filters": "Designer,Price,Product Type,Material,Meaning,Gemstone,Gemstone Color,Color,Gemstone Cut,Chain Length,Ring Size,Initial",
+    "wish_cta_text": "",
+    "wish_cta_url": "",
+    "review_source": "shopify",
+    "wishlist_enabled": false,
+    "myregistry_enabled": false,
+    "myregistry_script": "",
+    "enable_bronto": true,
+    "bronto_directadd_id": "avfebnsvbmmesqrovooxlokiqqwebim",
+    "bronto_newsletter_id": "0bc503ec000000000000000000000004c198",
+    "bronto_master_id": "0bc503ec000000000000000000000004c198",
+    "bronto_checkout_id": "0bc503ec000000000000000000000004c198",
+    "cart_cta": "button button--dark",
+    "search_shop_cta_style": "button button--primary",
+    "confirmation_blurb": "Thanks for Signing Up",
+    "enable_klaviyo_newsletter": false,
+    "klavyio_id": "",
+    "first_helper_menu": "",
+    "desktop_first_helper_image": "",
+    "mobile_first_helper_image": "",
+    "desktop_first_helper_svg": "",
+    "mobile_first_helper_svg": "",
+    "header_design": "ramsay",
+    "first_helper_image": "",
+    "first_helper_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0274\/2589\/8540\/files\/icon-help.svg?64119",
+    "second_helper_image": "",
+    "second_helper_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0274\/2589\/8540\/files\/icon-profile.svg?64119",
+    "sidecart_shipping_promo_enable": true,
+    "sidecart_shipping_promo_total": "100",
+    "sidecart_shipping_promo_copy": "Congrats! You get free shipping",
+    "sidecart_promo_message": "Get 50% off this thing!",
+    "sidecart_empty_message": "Your cart is empty.",
+    "sidecart_link_text_1": "Go Here",
+    "sidecart_empty_url_1": "shopify:\/\/pages\/ui-kit-ramsey",
+    "sidecart_link_text_2": "Go There",
+    "sidecart_empty_url_2": "shopify:\/\/pages\/ui-kit-ramsey",
+    "sidecart_link_text_3": "Go Anywhere",
+    "sidecart_empty_url_3": "shopify:\/\/pages\/ui-kit-ramsey",
+    "sidecart_link_text_4": "Visit This",
+    "sidecart_empty_url_4": "shopify:\/\/pages\/ui-kit-ramsey",
+    "sidecart_empty_image": "",
+    "sidecart_empty_image_alt": "Image Description",
+    "cart_notes_enable": true,
+    "gwp_threshold_product": "",
+    "gwp_threshold_description": "",
+    "gwp_threshold_value": 50,
+    "confirmation_heading": "Wonderful",
+    "customer_layout": "theme",
+    "example_option": "option",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1600291090584": {
+            "type": "logo_block",
+            "settings": {
+              "logo_png": "shopify:\/\/shop_images\/Secondary_2x_9aec5e6c-2e74-458c-90f4-d0f6c991eef6.png",
+              "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0444\/4028\/9445\/files\/Secondary.svg?v=1601679795",
+              "title": "VISIT US IN DALLAS",
+              "body": "<p>8300 Preston Road, Suite 700<\/p><p>Dallas, TX 75225<\/p><p>866.YLANG23<\/p>"
+            }
+          },
+          "1600291084698": {
+            "type": "link_list_block",
+            "settings": {
+              "menu": "shop"
+            }
+          },
+          "1600291061074": {
+            "type": "link_list_block",
+            "settings": {
+              "menu": "header"
+            }
+          },
+          "1600291095801": {
+            "type": "link_list_block",
+            "settings": {
+              "menu": "customer-service"
+            }
+          },
+          "1600291106622": {
+            "type": "link_list_block",
+            "settings": {
+              "menu": "our-company"
+            }
+          }
+        },
+        "block_order": [
+          "1600291090584",
+          "1600291084698",
+          "1600291061074",
+          "1600291095801",
+          "1600291106622"
+        ],
+        "settings": {
+          "newsletter_bg": "#000000",
+          "newsletter_font": "",
+          "klaviyo_form": "<div class=\"klaviyo-form-RfghH4\"><\/div>",
+          "social_icon_1": "facebook",
+          "social_icon_2": "instagram",
+          "social_icon_3": "twitter",
+          "social_icon_4": "pinterest",
+          "social_icon_5": "none",
+          "copyright_text": "Ylang 23",
+          "menu": "legal-links"
+        }
+      },
+      "collection-grid": {
+        "type": "collection-grid",
+        "settings": {
+        }
+      },
+      "top-header": {
+        "type": "top-header",
+        "blocks": {
+          "1599689130083": {
+            "type": "promo",
+            "disabled": true,
+            "settings": {
+              "promo_content": "MOTHERS DAY SALE: 15% OFF JENNIFER MEYER",
+              "promo_content_link": "https:\/\/www.ylang23.com\/collections\/jennifer-meyer\/?page=1&sort_by=manual"
+            }
+          },
+          "0a77dc5a-66e6-40f9-9b2c-36a82b56590e": {
+            "type": "promo",
+            "settings": {
+              "promo_content": "FREE SHIPPING ON DOMESTIC ORDERS",
+              "promo_content_link": "shopify:\/\/collections\/new-arrivals"
+            }
+          },
+          "b94ec980-2ebb-486d-a700-0598fc15d14a": {
+            "type": "promo",
+            "disabled": true,
+            "settings": {
+              "promo_content": "FREE OVERNIGHT SHIPPING ON ORDERS $500+",
+              "promo_content_link": "shopify:\/\/pages\/shipping-info"
+            }
+          }
+        },
+        "block_order": [
+          "1599689130083",
+          "0a77dc5a-66e6-40f9-9b2c-36a82b56590e",
+          "b94ec980-2ebb-486d-a700-0598fc15d14a"
+        ],
+        "settings": {
+          "promo_backgroind": "#000000",
+          "promo_text_color": "#ffffff",
+          "speed_autoplay": 5,
+          "slider_arrows": false
+        }
+      },
+      "header-navigation": {
+        "type": "header-navigation",
+        "blocks": {
+          "129c959d-1a83-4741-92e9-63eac2d559c8": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "New Arrivals",
+              "menu_item_url": "shopify:\/\/collections\/new-arrivals",
+              "disable_mega_menu": false,
+              "menu_link_list": "",
+              "large_image": "shopify:\/\/shop_images\/Ylang-23-75-Percent-Off-858x522x2.jpg",
+              "large_image_link": "shopify:\/\/collections\/y23-sale",
+              "large_image_link_text": ""
+            }
+          },
+          "665e9767-eca6-47b0-acbb-88fea553c8b7": {
+            "type": "text_small_image_blocks",
+            "settings": {
+              "title": "Designers",
+              "menu_item_url": "shopify:\/\/pages\/our-designers",
+              "menu_link_list": "designers-top-nav",
+              "disable_mega_menu": true,
+              "menu_image_1": "shopify:\/\/shop_images\/01-FOUNDRAE-verticalnew.jpg",
+              "menu_image_1_url": "shopify:\/\/collections\/foundrae",
+              "menu_image_1_text": "FOUNDRAE",
+              "menu_image_2": "shopify:\/\/shop_images\/13-RETROUVAI-verticalnew.jpg",
+              "menu_image_2_url": "shopify:\/\/collections\/retrouvai",
+              "menu_image_2_text": "RETROUVAI",
+              "menu_image_3": "shopify:\/\/shop_images\/10b-IRENE_SUMMER_STMT-verticalnew.jpg",
+              "menu_image_3_url": "shopify:\/\/collections\/irene-neuwirth",
+              "menu_image_3_text": "IRENE NEUWIRTH"
+            }
+          },
+          "02051538-c6fe-4a43-86b4-0187a817e9e0": {
+            "type": "text_small_image_blocks",
+            "settings": {
+              "title": "NECKLACES",
+              "menu_item_url": "shopify:\/\/collections\/necklaces",
+              "menu_link_list": "necklaces",
+              "disable_mega_menu": true,
+              "menu_image_1": "shopify:\/\/shop_images\/05-AZLEE-verticalnew.jpg",
+              "menu_image_1_url": "shopify:\/\/collections\/charms",
+              "menu_image_1_text": "CHARMS",
+              "menu_image_2": "shopify:\/\/shop_images\/12-MARLA_AARON-verticalnew.jpg",
+              "menu_image_2_url": "shopify:\/\/collections\/marla-aaron",
+              "menu_image_2_text": "MARLA AARON",
+              "menu_image_3": "shopify:\/\/shop_images\/02-CELINE-DAOUST-verticalnew.jpg",
+              "menu_image_3_url": "shopify:\/\/collections\/pendant-necklaces",
+              "menu_image_3_text": "PENDANT NECKLACES"
+            }
+          },
+          "071bd1f0-8589-4950-a240-3ccd40f32f7d": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "Earrings",
+              "menu_item_url": "shopify:\/\/collections\/earrings",
+              "disable_mega_menu": true,
+              "menu_link_list": "earrings",
+              "large_image": "shopify:\/\/shop_images\/04-MIXED_STMT_EARRINGS-horizontalnew.jpg",
+              "large_image_link": "shopify:\/\/collections\/earrings",
+              "large_image_link_text": "EARRINGS"
+            }
+          },
+          "07785bf0-740b-4c2d-b17e-747517db0f9a": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "Rings",
+              "menu_item_url": "shopify:\/\/collections\/rings",
+              "disable_mega_menu": true,
+              "menu_link_list": "rings",
+              "large_image": "shopify:\/\/shop_images\/08-MIXED_DESIGNER_RINGS-horizontalnew.jpg",
+              "large_image_link": "shopify:\/\/collections\/rings",
+              "large_image_link_text": "EXPLORE OUR COLLECTION, FROM STACKABLE BANDS TO EYE POPPING STATEMENTS"
+            }
+          },
+          "1601383443941": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "Bracelets",
+              "menu_item_url": "shopify:\/\/collections\/bracelets",
+              "disable_mega_menu": true,
+              "menu_link_list": "bracelets",
+              "large_image": "shopify:\/\/shop_images\/14-MIXED-BRACELETS-horizontalnew.jpg",
+              "large_image_link": "shopify:\/\/collections\/bracelets",
+              "large_image_link_text": "ONE IS NEVER ENOUGH"
+            }
+          },
+          "22793700-e89d-43af-9cdc-3a60bdad3037": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "Gifts",
+              "menu_item_url": "shopify:\/\/pages\/shop-gifts",
+              "disable_mega_menu": true,
+              "menu_link_list": "gifts",
+              "large_image": "shopify:\/\/shop_images\/unnamed_281d39ca-878b-4e85-af62-c5e959025597.jpg",
+              "large_image_link": "shopify:\/\/products\/gift-cards",
+              "large_image_link_text": "THE PERFECT GIFT FOR ANY JEWELRY LOVER!"
+            }
+          },
+          "b6ef90a9-2e6d-42a0-813d-9ec5ac797b3c": {
+            "type": "text_large_image",
+            "settings": {
+              "title": "Sale",
+              "menu_item_url": "shopify:\/\/collections\/sale",
+              "disable_mega_menu": false,
+              "menu_link_list": "sale-1",
+              "large_image": "shopify:\/\/shop_images\/Ylang-23-2021-12-08-Sale-30-75-Off-858x520.jpg",
+              "large_image_link": "",
+              "large_image_link_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "129c959d-1a83-4741-92e9-63eac2d559c8",
+          "665e9767-eca6-47b0-acbb-88fea553c8b7",
+          "02051538-c6fe-4a43-86b4-0187a817e9e0",
+          "071bd1f0-8589-4950-a240-3ccd40f32f7d",
+          "07785bf0-740b-4c2d-b17e-747517db0f9a",
+          "1601383443941",
+          "22793700-e89d-43af-9cdc-3a60bdad3037",
+          "b6ef90a9-2e6d-42a0-813d-9ec5ac797b3c"
+        ],
+        "settings": {
+          "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0469\/1800\/8983\/files\/Primary_2x_f6812abc-1fb1-4ba5-a20d-4069cf5623e9_200x@2x.png?v=1599000762",
+          "search_bar_placeholder": "Search for Jewelry, Designers and More"
+        }
+      },
+      "page--about": {
+        "type": "page--about",
+        "blocks": {
+          "1581529194833": {
+            "type": "image_banner",
+            "settings": {
+              "enable_mobile_image": true,
+              "enable_overlay": true,
+              "overlay_color": "bg-grey",
+              "overlay_opacity": 97,
+              "header": "Header Goes Here!",
+              "subheader": "Also your subheader!",
+              "body_copy": "Banner Description goes here!.",
+              "horizontal_layout": "left",
+              "vertical_layout": "middle",
+              "enable_cta": true,
+              "cta_title": "testing",
+              "cta_link": "shopify:\/\/pages\/california-privacy-notice",
+              "cta_layout": "link link--primary",
+              "section_bg_color": "bg-white",
+              "mobile_text_color": "color-accent-3",
+              "heading_color": "color-off-black",
+              "sub_heading_color": "color-off-black",
+              "body_copy_color": "color-accent-3"
+            }
+          },
+          "1581529485511": {
+            "type": "press",
+            "settings": {
+              "itp_section_header": "Section Header!",
+              "itp_header_color": "color-brand-secondary",
+              "itp_background_color": "bg-accent-2",
+              "itp_url_1": "shopify:\/\/pages\/california-privacy-notice",
+              "itp_url_target_1": "_self",
+              "itp_url_2": "shopify:\/\/collections\/carry-bags",
+              "itp_url_target_2": "_self",
+              "itp_url_target_3": "_self",
+              "itp_url_target_4": "_self"
+            }
+          },
+          "1581529134846": {
+            "type": "video",
+            "settings": {
+              "preheader": "Preheader!",
+              "header": "Header Goes Here!",
+              "body_copy": "This is the description area for the video section. Add more info here.!",
+              "video_id": "Wy9q22isx3U",
+              "cta_title": "TEST CTA",
+              "cta_link": "shopify:\/\/pages\/contact-us",
+              "cta_layout": "button button--primary",
+              "section_bg_color": "bg-grey",
+              "pre_heading_color": "color-accent-3",
+              "heading_color": "color-accent-1",
+              "body_copy_color": "color-accent-2"
+            }
+          },
+          "1581529279300": {
+            "type": "three_column",
+            "settings": {
+              "header": "Header goes here!",
+              "subheader": "For Three Column Section!",
+              "desktop_layout": "left-aligned",
+              "horizontal_layout": "left",
+              "section_bg_color": "bg-white",
+              "section_heading_color": "color-grey",
+              "section_sub_heading_color": "color-off-black",
+              "block_heading_color": "color-black",
+              "block_text_color": "color-off-black",
+              "cta_layout": "button button--secondary",
+              "block_text_1": "Header 1!",
+              "block_body_copy_1": "",
+              "block_cta_title_1": "click 1!",
+              "block_cta_link_1": "shopify:\/\/pages\/california-privacy-notice",
+              "block_text_2": "Header 2!",
+              "block_body_copy_2": "Add description for column 2 here. Add description for column 2 here.!",
+              "block_cta_title_2": "click 2",
+              "block_cta_link_2": "shopify:\/\/pages\/california-privacy-notice",
+              "block_text_3": "Header 3!",
+              "block_body_copy_3": "Add description for column 3 here.!",
+              "block_cta_title_3": "click 3!",
+              "block_cta_link_3": "shopify:\/\/pages\/california-privacy-notice"
+            }
+          },
+          "1581529405162": {
+            "type": "text_only",
+            "settings": {
+              "horizontal_layout": "right",
+              "vertical_layout": "bottom",
+              "text_layout": "two_column",
+              "bg_color": "bg-brand-secondary",
+              "enable_mobile_image": true,
+              "enable_overlay": true,
+              "overlay_color": "bg-white",
+              "overlay_opacity": 100,
+              "pre_heading": "Pre Heading!",
+              "pre_heading_color": "color-black",
+              "heading": "Heading!",
+              "heading_color": "color-black",
+              "sub_heading": "Sub Heading!!",
+              "sub_heading_color": "color-accent-3",
+              "body_copy": "<p>Beautiful Text Section description goes here.!<\/p>",
+              "body_copy_color": "color-black",
+              "enable_cta": true,
+              "cta_layout": "button button--primary",
+              "cta_text": "Shop now!",
+              "cta_url": "shopify:\/\/collections"
+            }
+          },
+          "1581529443092": {
+            "type": "fifty_fifty",
+            "settings": {
+              "ff_layout": "",
+              "ff_image_width": "sw--40",
+              "ff_preheader": "Preheader",
+              "ff_header": "Header",
+              "ff_subheader": "Subheader",
+              "ff_body": "<p>This is the body copy. You can write anything you would like here. <\/p>",
+              "ff_text_alignment": "text-center",
+              "ff_background_color": "bg-accent-5",
+              "ff_preheader_color": "color-accent-1",
+              "ff_header_color": "color-accent-1",
+              "ff_subheader_color": "color-accent-3",
+              "ff_body_color": "color-black",
+              "ff_cta_text": "shop now!",
+              "ff_cta_url": "shopify:\/\/collections\/all-products",
+              "ff_cta_style": "button button--primary"
+            }
+          }
+        },
+        "block_order": [
+          "1581529194833",
+          "1581529485511",
+          "1581529134846",
+          "1581529279300",
+          "1581529405162",
+          "1581529443092"
+        ],
+        "settings": {
+        }
+      },
+      "1581923590086": {
+        "type": "fifty-fifty",
+        "settings": {
+          "max_width": "1440px",
+          "margin_top": 8,
+          "margin_bottom": 0,
+          "ff_layout": "sw--reverse",
+          "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-07-Desktop-1556x940_bb4a3725-d41c-48db-9456-427f0994ab2e.jpg",
+          "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-07-Mobile-686x460x2.jpg",
+          "ff_image_width": "sw--60",
+          "ff_preheader": "",
+          "ff_header": "Gemstone Rings",
+          "ff_subheader": "",
+          "ff_body": "",
+          "ff_text_alignment": "text-center",
+          "ff_background_color": "bg-white",
+          "ff_preheader_color": "color-black",
+          "ff_header_color": "color-black",
+          "ff_subheader_color": "color-accent-1",
+          "ff_body_color": "color-brand-secondary",
+          "ff_cta_text": "SHOP NOW",
+          "ff_cta_url": "shopify:\/\/collections\/gemstone-rings",
+          "ff_cta_style": "button button--primary"
+        }
+      },
+      "contact-form": {
+        "type": "contact-form",
+        "settings": {
+          "form_enabled": true,
+          "title_text_color": "color-brand-secondary",
+          "success_message": "YOUR FORM HAS BEEN SUBMITTED SUCCESSFULLY",
+          "success_btn": "Continue Shopping",
+          "success_link": "shopify:\/\/collections\/new-arrivals"
+        }
+      },
+      "contact-info-blocks": {
+        "type": "contact-info-blocks",
+        "settings": {
+          "text_color": "color-black",
+          "bg_color": "",
+          "icon_color": "fill-black",
+          "phone": "214-234-0002",
+          "enable_address": true,
+          "street": "8300 Preston Road",
+          "city": "Suite 700",
+          "country": "Dallas, TX 75225",
+          "enable_social": true,
+          "enable_twitter": true,
+          "twitter_icon_color": "fill-brand-secondary",
+          "enable_instagram": true,
+          "instagram_icon_color": "fill-brand-secondary",
+          "enable_facebook": true,
+          "facebook_icon_color": "fill-brand-secondary",
+          "enable_pinterest": true,
+          "pinterest_icon_color": "fill-brand-secondary",
+          "enable_snapchat": false,
+          "snapchat_icon_color": "fill-brand-primary",
+          "enable_tumblr": false,
+          "tumblr_icon_color": "fill-brand-primary",
+          "enable_youtube": false,
+          "youtube_icon_color": "fill-brand-primary",
+          "enable_vimeo": false,
+          "vimeo_icon_color": "fill-brand-primary"
+        }
+      },
+      "full-width-text-block": {
+        "type": "full-width-text-block",
+        "settings": {
+          "copy": ""
+        }
+      },
+      "three-column-content-blocks-simple": {
+        "type": "three-column-content-blocks-simple",
+        "settings": {
+        }
+      },
+      "three-column-content-blocks": {
+        "type": "three-column-content-blocks",
+        "settings": {
+          "heading": "",
+          "subheading": ""
+        }
+      },
+      "collection-hero": {
+        "type": "collection-hero",
+        "settings": {
+        }
+      },
+      "page--404": {
+        "type": "page--404",
+        "settings": {
+          "ff_layout": "sw--reverse",
+          "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-404-Desktop-1360x1088_1.jpg",
+          "ff_image_width": "sw--60",
+          "ff_preheader": "",
+          "ff_header": "Oops!",
+          "ff_subheader": "",
+          "ff_body": "<p>The page you are looking for couldn&#x27;t be found. To give it another try, you can search for jewelry, designers, and more in the above search bar, or head over to our homepage.<\/p>",
+          "ff_text_alignment": "",
+          "ff_background_color": "bg-white",
+          "ff_preheader_color": "color-black",
+          "ff_header_color": "color-black",
+          "ff_subheader_color": "color-black",
+          "ff_body_color": "color-black",
+          "ff_cta_text": "Return to Shopping",
+          "ff_cta_url": "https:\/\/ylang2-3.myshopify.com\/",
+          "ff_cta_style": "button button--primary"
+        }
+      },
+      "footer-value-props": {
+        "type": "footer-value-props",
+        "blocks": {
+          "1600197535617": {
+            "type": "value_prop",
+            "disabled": true,
+            "settings": {
+              "title": "Family Owned Since 1985",
+              "body": "<p>Join the fashionistas who have been coming back for 35+ years for the best currated mix of designer jewelry from around the world<\/p>"
+            }
+          },
+          "1600197772059": {
+            "type": "value_prop",
+            "disabled": true,
+            "settings": {
+              "title": "Best in class service",
+              "body": "<p>Once you've experienced Ylang 23's level of service, you won't want to shop anywhere else<\/p>"
+            }
+          },
+          "1600197849853": {
+            "type": "value_prop",
+            "disabled": true,
+            "settings": {
+              "title": "we know designer jewelry",
+              "body": "<p>We have personal relationships with our designers. Our jewelry experts can help you currate and style your dream collection.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1600197535617",
+          "1600197772059",
+          "1600197849853"
+        ],
+        "settings": {
+          "background_color": "#f7f6f5"
+        }
+      },
+      "product-display-ramsay": {
+        "type": "product-display-ramsay",
+        "settings": {
+          "pdp_show_product_type": false,
+          "atc_cta_class": "button button--secondary",
+          "pdp_accordion_name": "Shipping",
+          "pdp_accordion_content": "",
+          "pdp_recommendations_heading": "You May Also Like",
+          "pdp_hide_reviews": false,
+          "pdp_upsell_heading": "",
+          "pdp_upsell_copy": "",
+          "pdp_upsell_cta_copy": ""
+        }
+      },
+      "gift-card": {
+        "type": "gift-card",
+        "settings": {
+          "heading_text": "Your gift card",
+          "giftcard_image": "shopify:\/\/shop_images\/Ylang-23-Meganav-Gifts-858x520.jpg"
+        }
+      },
+      "blog-category-hero": {
+        "type": "blog-category-hero",
+        "settings": {
+        }
+      },
+      "blog-category-links": {
+        "type": "blog-category-links",
+        "settings": {
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "tag-link-background-color": "bg-brand-primary",
+          "tag-link-text-color": "color-black",
+          "more-articles-headline": "More Articles",
+          "more-articles-headline-color": "color-black",
+          "more-articles-background-color": "bg-brand-primary",
+          "more-articles-title-color": "color-black"
+        }
+      },
+      "160319597416e01071": {
+        "type": "shoppable-instagram",
+        "settings": {
+          "title": ""
+        }
+      },
+      "product-display-bourdain": {
+        "type": "product-display-bourdain",
+        "settings": {
+          "pdp_accordion_name": "Shipping",
+          "pdp_accordion_content": "<p>Free 2 day shipping and returns. Any order over $1,500 receives free overnight shipping.<\/p>",
+          "pdp_recommendations_heading": "You May Also Like",
+          "pdp_global_info_section_heading": "",
+          "pdp_global_info_section_heading_color": "#ffffff",
+          "pdp_product_rec_sidebar_heading": "",
+          "pdp_value_props_background_color": "#f7f6f5",
+          "pdp_vp_icon_0": "shopify:\/\/shop_images\/prop_shipping.png",
+          "pdp_vp_title_0": "FREE & FAST SHIPPING",
+          "pdp_vp_body_0": "All orders ship free. Any order over $1,500+ receives free overnight shipping.",
+          "pdp_vp_icon_1": "shopify:\/\/shop_images\/prop_returns.png",
+          "pdp_vp_title_1": "FREE & EASY RETURNS",
+          "pdp_vp_body_1": "We want you to be completely happy with your purchase!",
+          "pdp_vp_icon_2": "shopify:\/\/shop_images\/prop_service.png",
+          "pdp_vp_title_2": "TOP SERVICE & EXPERTISE",
+          "pdp_vp_body_2": "Once you've experienced Ylang 23's level of service, you won't want to shop any place else.",
+          "pdp_vp_icon_3": "shopify:\/\/shop_images\/prop_gift.png",
+          "pdp_vp_title_3": "FREE GIFT WRAPPING",
+          "pdp_vp_body_3": "Every gift is personally gift wrapped and shipped within a day to your specifications.",
+          "cl_heading": "",
+          "cl_heading_color": "color-black",
+          "cl_background_color": "bg-white"
+        }
+      },
+      "page--designers": {
+        "type": "page--designers",
+        "settings": {
+          "designers_list": "designers-directory",
+          "max_width": "none",
+          "top_margin": 56,
+          "bottom_margin": 56,
+          "layout": "short",
+          "enable_text_box": false,
+          "text_box_bg_color": "",
+          "mobile_layout": "overlay",
+          "mobile_text_alignment": "left",
+          "horizontal_layout": "center",
+          "vertical_layout": "middle",
+          "enable_scroll_trigger": true,
+          "arrow_color": "fill-black",
+          "background_image": "shopify:\/\/shop_images\/Ylang-23-2022-01-05-Collections-Image-Desktop-2880x740.jpg",
+          "enable_mobile_image": true,
+          "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-2022-01-05-Collections-Image-Mobile-1000x382.jpg",
+          "video_url": "",
+          "enable_overlay": false,
+          "overlay_color": "bg-brand-primary",
+          "content_background_color": "#ffffff",
+          "overlay_opacity": 50,
+          "pre_heading": "",
+          "heading": "Our Designers",
+          "sub_heading": "",
+          "body_copy": "",
+          "pre_heading_color": "color-black",
+          "heading_color": "color-light-grey",
+          "sub_heading_color": "color-black",
+          "body_copy_color": "color-black",
+          "mobile_bg_color": "bg-brand-primary",
+          "pre_heading_color_mobile": "color-black",
+          "heading_color_mobile": "color-black",
+          "sub_heading_color_mobile": "color-black",
+          "body_copy_color_mobile": "color-black",
+          "enable_cta": false,
+          "cta_layout": "button button--primary",
+          "cta_text": "",
+          "cta_url": ""
+        }
+      },
+      "1603483117f2043d2c": {
+        "type": "featured-designers",
+        "settings": {
+          "margin_top": 8,
+          "margin_bottom": 0,
+          "featured_designer_name": "New Arrivals",
+          "nameColor": "color-white",
+          "featured_designer_excerpt": "",
+          "excerptColor": "color-black",
+          "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_c09e8124-c7a3-42d9-81b1-f2b576c37f8f.jpg",
+          "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_ebf6dd83-9134-4e41-a67d-30a329d5b57c.jpg",
+          "enable_cta": true,
+          "cta_text": "SHOP ALL",
+          "cta_color": "#ffffff",
+          "cta_layout": "link link--primary",
+          "cta_icon_color": "fill-white",
+          "arrow_color": "fill-black",
+          "featured_collection": "new-arrivals",
+          "heading": "Curated for you",
+          "amount": 32,
+          "bg_color": "bg-white",
+          "heading_color": "color-black"
+        }
+      },
+      "1606336631cc2bed99": {
+        "type": "image-strip",
+        "blocks": {
+          "91fa0289-0a98-4234-9921-897f6cca27f1": {
+            "type": "testimonial_block",
+            "settings": {
+              "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_06a1f3ee-c853-4dc7-a77b-fe1e0bac8b92.jpg",
+              "itp_url": "shopify:\/\/collections\/lito",
+              "itp_link_target": "_self",
+              "link_aria_label": "Link to Lito"
+            }
+          },
+          "54051632-86dd-4fb8-bc04-b90eb7a42952": {
+            "type": "testimonial_block",
+            "settings": {
+              "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-04-1360x1360_4ec18824-6470-4051-9744-89a0358f2b66.jpg",
+              "itp_url": "shopify:\/\/collections\/retrouvai",
+              "itp_link_target": "_self",
+              "link_aria_label": "Link to Retrouvai"
+            }
+          },
+          "ea229f8c-9133-4824-af70-49f9393ec561": {
+            "type": "testimonial_block",
+            "settings": {
+              "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-05-1360x1360_e76408b5-793a-4283-b4b1-c9e2078b1c58.jpg",
+              "itp_url": "shopify:\/\/collections\/foundrae",
+              "itp_link_target": "_self",
+              "link_aria_label": "Link to FoundRae"
+            }
+          }
+        },
+        "block_order": [
+          "91fa0289-0a98-4234-9921-897f6cca27f1",
+          "54051632-86dd-4fb8-bc04-b90eb7a42952",
+          "ea229f8c-9133-4824-af70-49f9393ec561"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "column_gap": 8,
+          "row_gap": 0
+        }
+      },
+      "16063388310e3c947e": {
+        "type": "hero-banner",
+        "settings": {
+          "max_width": "1440px",
+          "top_margin": 8,
+          "bottom_margin": 8,
+          "layout": "short",
+          "enable_text_box": false,
+          "text_box_bg_color": "bg-black",
+          "mobile_layout": "below",
+          "mobile_text_alignment": "center",
+          "horizontal_layout": "left",
+          "vertical_layout": "middle",
+          "background_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Desktop-2880x1088_1_58c38c2b-47e2-460c-8ce7-bb47dc4ade31.jpg",
+          "enable_mobile_image": true,
+          "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-750x496_6b6bd2d6-9181-4b12-b1f7-9e9110d6c26d.jpg",
+          "hero_url": "shopify:\/\/collections\/marla-aaron",
+          "url_aria_label": "Link to Marla Aaron",
+          "video_url": "",
+          "enable_overlay": false,
+          "overlay_color": "bg-accent-1",
+          "content_background_color": "#ffffff",
+          "overlay_opacity": 0,
+          "pre_heading": "",
+          "heading": "",
+          "sub_heading": "",
+          "body_copy": "",
+          "pre_heading_color": "color-black",
+          "heading_color": "color-black",
+          "sub_heading_color": "color-black",
+          "body_copy_color": "color-black",
+          "mobile_bg_color": "",
+          "pre_heading_color_mobile": "color-black",
+          "heading_color_mobile": "color-black",
+          "sub_heading_color_mobile": "color-black",
+          "body_copy_color_mobile": "color-black",
+          "enable_cta": false,
+          "cta_color": "#000000",
+          "cta_bordercolor": "#000000",
+          "cta_textcolor": "#ffffff",
+          "cta_text": "Shop Now",
+          "cta_url": "shopify:\/\/collections\/marla-aaron"
+        }
+      },
+      "1662757966b4444834": {
+        "type": "seo-content",
+        "settings": {
+          "margin_top": 56,
+          "margin_bottom": 56,
+          "scb_title": "",
+          "scb_content": "<p>Welcome to Ylang 23, where you can find a curated mix of jewelry collections from the world’s top contemporary designers, including <a href=\"https:\/\/www.ylang23.com\/collections\/foundrae\/\">Foundrae<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/jennifer-meyer\/\">Jennifer Meyer<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/maria-tash\/\">Maria Tash<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/marla-aaron\/\">Marla Aaron<\/a>, <a href=\"https:\/\/www.ylang23.com\/collections\/cathy-waterman\/\">Cathy Waterman<\/a> and more. Shop by price, jewelry type, gemstone or designer.<br><br>\nYlang 23 is committed to showcasing designers whose creativity and craftsmanship help shape worldwide trends. We take the time to meet each of our designers and have intimate knowledge of their collections. <br><br>\nWe’ve been at this a long time. We were the first designer jewelry company to go online in 2000. Family-owned since 1985, Ylang 23 is dedicated to providing a best-in-class customer experience and we look forward to helping you find your dream collection. We’re also here to help you style your new jewelry collection with outfits, find ways to layer, and share advice on how to keep your jewelry sparkling.<\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+      "16063388310e3c947e",
+      "1606336631cc2bed99",
+      "1603483117f2043d2c",
+      "1581923590086",
+      "160319597416e01071",
+      "1662757966b4444834"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media screen and (min-width: 992px) {body.template-blog .article__container {flex-direction: row; }}"
+    ]
+  }
+}

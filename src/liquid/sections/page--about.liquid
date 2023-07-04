@@ -222,7 +222,7 @@
             "type":      "select",
             "id":        "cta_layout",
             "label":     "CTA Style",
-            "options": <%- uikit.buttonAndLinkOptions -%>,
+            "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}],
             "default":   "button button--primary"
           },
           {
@@ -233,28 +233,28 @@
             "type":      "select",
             "id":        "section_bg_color",
             "label":     "Section Background Color",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
             "type":      "select",
             "id":        "pre_heading_color",
             "label":     "Preheader Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "heading_color",
             "label":     "Header Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "body_copy_color",
             "label":     "Body Copy Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           }
         ]
@@ -300,7 +300,7 @@
             "type":      "select",
             "id":        "overlay_color",
             "label":     "Overlay Color",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
@@ -383,7 +383,7 @@
             "type":      "select",
             "id":        "cta_layout",
             "label":     "CTA Style",
-            "options": <%- uikit.buttonAndLinkOptions -%>,
+            "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}],
             "default":   "button button--primary"
           },
           {
@@ -395,35 +395,35 @@
             "id":        "section_bg_color",
             "label":     "Section Background Color",
             "info":       "Displays on Mobile",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
             "type":      "select",
             "id":        "mobile_text_color",
             "label":     "Mobile Text Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "heading_color",
             "label":     "Header Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
                     {
             "type":      "select",
             "id":        "sub_heading_color",
             "label":     "Subheader Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "body_copy_color",
             "label":     "Body Copy Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           }
         ]
@@ -484,42 +484,42 @@
             "type":      "select",
             "id":        "section_bg_color",
             "label":     "Section Background Color",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
             "type":      "select",
             "id":        "section_heading_color",
             "label":     "Section Heading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "section_sub_heading_color",
             "label":     "Section Subheading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "block_heading_color",
             "label":     "Block Heading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "block_text_color",
             "label":     "Block Text Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
             "type":      "select",
             "id":        "cta_layout",
             "label":     "CTA Style",
-            "options": <%- uikit.buttonAndLinkOptions -%>,
+            "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}],
             "default":   "button button--primary"
           },
           {
@@ -659,7 +659,7 @@
             "type":      "select",
             "id":        "bg_color",
             "label":     "Background Color",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
@@ -695,7 +695,7 @@
             "type":      "select",
             "id":        "overlay_color",
             "label":     "Overlay Color",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-brand-primary"
           },
           {
@@ -722,7 +722,7 @@
             "type":      "select",
             "id":        "pre_heading_color",
             "label":     "Pre Heading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
@@ -734,7 +734,7 @@
             "type":      "select",
             "id":        "heading_color",
             "label":     "Heading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
@@ -746,7 +746,7 @@
             "type":      "select",
             "id":        "sub_heading_color",
             "label":     "Sub Heading Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
@@ -758,7 +758,7 @@
             "type":      "select",
             "id":        "body_copy_color",
             "label":     "Body Copy Color",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
@@ -776,7 +776,7 @@
             "type":      "select",
             "id":        "cta_layout",
             "label":     "CTA Style",
-            "options": <%- uikit.buttonAndLinkOptions -%>,
+            "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}],
             "default":   "button button--primary"
           },
           {
@@ -878,35 +878,35 @@
             "label": "Background Color",
             "id": "ff_background_color",
             "type": "select",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-grey"
           },
           { 
             "label": "Preheader Color",
             "id": "ff_preheader_color",
             "type": "select",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           { 
             "label": "Header Color",
             "id": "ff_header_color",
             "type": "select",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           { 
             "label": "Subheader Color",
             "id": "ff_subheader_color",
             "type": "select",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           { 
             "label": "Body Copy Color",
             "id": "ff_body_color",
             "type": "select",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           {
@@ -929,8 +929,7 @@
             "label": "CTA Style",
             "id": "ff_cta_style",
             "type": "select",
-            "options": <%- uikit.buttonAndLinkOptions -%>
-          }
+            "options": [{"label":"Primary Button","value":"button button--primary"},{"label":"Default Button","value":"button button--secondary"},{"label":"Primary Text Link","value":"link link--primary"},{"label":"Secondary Text Link","value":"link link--secondary"}]          }
         ]
       },
       {
@@ -947,14 +946,14 @@
             "label": "Section Header Color",
             "id": "itp_header_color",
             "type": "select",
-            "options": <%- uikit.colorOptions -%>,
+            "options": [{"label":"Primary","value":"color-brand-primary"},{"label":"Secondary","value":"color-brand-secondary"},{"label":"Accent 1","value":"color-accent-1"},{"label":"Accent 2","value":"color-accent-2"},{"label":"Accent 3","value":"color-accent-3"},{"label":"Accent 4","value":"color-accent-4"},{"label":"Accent 5","value":"color-accent-5"},{"label":"White","value":"color-white"},{"label":"Light Grey","value":"color-light-grey"},{"label":"Grey","value":"color-grey"},{"label":"Off Black","value":"color-off-black"},{"label":"Black","value":"color-black"}],
             "default": "color-black"
           },
           { 
             "label": "Background Color",
             "id": "itp_background_color",
             "type": "select",
-            "options": <%- uikit.backgroundOptions -%>,
+            "options": [{"label":"None","value":""},{"label":"Primary","value":"bg-brand-primary"},{"label":"Secondary","value":"bg-brand-secondary"},{"label":"Accent 1","value":"bg-accent-1"},{"label":"Accent 2","value":"bg-accent-2"},{"label":"Accent 3","value":"bg-accent-3"},{"label":"Accent 4","value":"bg-accent-4"},{"label":"Accent 5","value":"bg-accent-5"},{"label":"White","value":"bg-white"},{"label":"Light Grey","value":"bg-light-grey"},{"label":"Grey","value":"bg-grey"},{"label":"Off Black","value":"bg-off-black"},{"label":"Black","value":"bg-black"}],
             "default": "bg-white"
           },
           {
@@ -976,8 +975,7 @@
             "type": "select",
             "id": "itp_url_target_1",
             "default": "_self",
-            "options": <%- linkTargetOptions -%>
-          },
+            "options": [{"label":"Current Tab","value":"_self"},{"label":"New Tab","value":"_blank"}]          },
           {
             "label": "Logo 2",
             "type": "image_picker",
@@ -993,8 +991,7 @@
             "type": "select",
             "id": "itp_url_target_2",
             "default": "_self",
-            "options": <%- linkTargetOptions -%>
-          },
+            "options": [{"label":"Current Tab","value":"_self"},{"label":"New Tab","value":"_blank"}]          },
           {
             "label": "Logo 3",
             "type": "image_picker",
@@ -1010,8 +1007,7 @@
             "type": "select",
             "id": "itp_url_target_3",
             "default": "_self",
-            "options": <%- linkTargetOptions -%>
-          },
+            "options": [{"label":"Current Tab","value":"_self"},{"label":"New Tab","value":"_blank"}]          },
           {
             "label": "Logo 4",
             "type": "image_picker",
@@ -1027,8 +1023,7 @@
             "type": "select",
             "id": "itp_url_target_4",
             "default": "_self",
-            "options": <%- linkTargetOptions -%>
-          }
+            "options": [{"label":"Current Tab","value":"_self"},{"label":"New Tab","value":"_blank"}]          }
         ]
       },
       {

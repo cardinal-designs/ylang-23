@@ -1,6 +1,7 @@
 
 {{ 'vendors-main.js' | asset_url | script_tag }}
 {{ 'main.js' | asset_url | script_tag }}
+{{ 'custom.js' | asset_url | script_tag }}
 
 {%- if template.name == 'cart' -%}
   {%- include 'subscription-cart-footer' -%}

@@ -1,0 +1,13 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/ylang2-3.myshopify.com/pages/configure/221185/edit
+{% endcomment %}
+{% if page.metafields.custom_fields["seo_block_title"] != blank %}
+  <div class="custom-field custom-field__seo-block-title custom-field__type--text">
+    <h3 class="custom-field--title">seo_block_title</h3>
+    <div class="custom-field--value">
+      {{ page.metafields.custom_fields["seo_block_title"] }}
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,13 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/ylang2-3.myshopify.com/pages/configure/223112/edit
+{% endcomment %}
+{% if page.metafields.custom_fields["hero_image_desktop"] != blank %}
+  <div class="custom-field custom-field__hero-image-desktop custom-field__type--image">
+    <h3 class="custom-field--title">hero_image_desktop</h3>
+    <div class="custom-field--value">  
+      {% include 'cf-image' with image: page.metafields.custom_fields["hero_image_desktop"], print: 'url' %}
+    </div>
+  </div>
+{% endif %}
