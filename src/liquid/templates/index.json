@@ -13,10 +13,10 @@
         "mobile_text_alignment": "center",
         "horizontal_layout": "left",
         "vertical_layout": "middle",
-        "background_image": "shopify:\/\/shop_images\/Ylang-23-Position-01-Desktop-2880x1088_ea156225-c4b1-4275-8052-e7cbece936fa.jpg",
+        "background_image": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-01-Foundrae-Desktop-2880x1088.jpg",
         "enable_mobile_image": true,
-        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-01-Mobile-767x630_fb22f503-6edb-405a-8139-089f2d634a2d.jpg",
-        "hero_url": "shopify:\/\/collections\/lito",
+        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-01-Foundrae-Mobile-767x630.jpg",
+        "hero_url": "shopify:\/\/collections\/foundrae",
         "url_aria_label": "Link to Lito",
         "video_url": "",
         "enable_overlay": false,
@@ -41,7 +41,7 @@
         "cta_bordercolor": "#000000",
         "cta_textcolor": "#ffffff",
         "cta_text": "Shop Now",
-        "cta_url": "shopify:\/\/collections\/lito"
+        "cta_url": "shopify:\/\/collections\/foundrae"
       }
     },
     "image-strip": {
@@ -50,28 +50,28 @@
         "782d35dd-b0f0-4d74-a98b-baf2a1e74a32": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-03-1360x1360_cb913d61-f4e4-417b-a637-f31be5c472f6.jpg",
-            "itp_url": "shopify:\/\/collections\/gemstone-jewelry",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-03-Earrings-1360x1360.jpg",
+            "itp_url": "shopify:\/\/collections\/earrings",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Gemstone Jewelry"
+            "link_aria_label": "Link to Earrings"
           }
         },
         "2938e6e3-c459-4a16-9cb0-618147d6140a": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-04-1360x1360_26f5385e-9de4-449c-8302-8774b5eeb96d.jpg",
-            "itp_url": "shopify:\/\/collections\/necklaces",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-03-Marla-Aaron-1360x1360.jpg",
+            "itp_url": "shopify:\/\/collections\/marla-aaron",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Necklaces"
+            "link_aria_label": "Link to Marla Aaron"
           }
         },
         "309ad212-f126-41b6-9390-f200b5bf322e": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-Position-05-1360x1360_dc851292-b7b2-4cc5-a114-94f1c107452f.jpg",
-            "itp_url": "shopify:\/\/collections\/earrings",
+            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-05-Rings-1360x1360.jpg",
+            "itp_url": "shopify:\/\/collections\/rings",
             "itp_link_target": "_self",
-            "link_aria_label": "Link to Earrings"
+            "link_aria_label": "Link to Rings"
           }
         }
       },
@@ -93,8 +93,8 @@
       "type": "nasto-custom",
       "settings": {
         "featured_designer_name": "New Arrivals",
-        "featured_designer_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_2b93e8d7-0bfc-480a-87fb-907c5439642a.jpg",
-        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_1719d0c8-8be7-4250-aa8b-b65dc92b5fea.jpg",
+        "featured_designer_image_desktop": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-Desktop-1556x1324_2d22f1e5-26ea-4dae-8baa-04e5577b7daa.jpg",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-750x398x2_c1748921-4260-4cd1-998f-c7902ea43f49.jpg",
         "enable_cta": false,
         "cta_text": "Shop All",
         "cta_url": "",
@@ -114,8 +114,8 @@
         "excerptColor": "color-black",
         "underlayColor": "bg-white",
         "opacity": 0,
-        "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-Position-06-Desktop-1556x1324_2806a82d-8584-4bd4-9e21-fd2210f53959.jpg",
-        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-Position-06-Mobile-750x398x2_9ef56e85-e7c7-445d-ad05-be55e0b28e5c.jpg",
+        "featured_designer_image": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-Desktop-1556x1324.jpg",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-750x398x2_886c84bc-0ab3-4634-a93d-530ce0df826e.jpg",
         "enable_cta": true,
         "cta_text": "SHOP ALL",
         "cta_color": "#ffffff",
@@ -136,11 +136,11 @@
         "margin_top": 8,
         "margin_bottom": 0,
         "ff_layout": "sw--reverse",
-        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-Position-07-Desktop-1556x940_7760e7d6-c655-4e63-a577-2c558c840c10.jpg",
-        "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-Position-07-Mobile-686x460x2_491141c3-9ba1-4c77-9350-bfcb3ea21e56.jpg",
+        "ff_image_desktop": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-07-Carbon-Hyde-Desktop-1556x940.jpg",
+        "ff_image_mobile": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-07-Carbon-Hyde-Mobile-686x460x2.jpg",
         "ff_image_width": "sw--60",
         "ff_preheader": "",
-        "ff_header": "Gemstones",
+        "ff_header": "Carbon & Hyde",
         "ff_subheader": "",
         "ff_body": "",
         "ff_text_alignment": "text-center",
@@ -150,7 +150,7 @@
         "ff_subheader_color": "color-accent-1",
         "ff_body_color": "color-brand-secondary",
         "ff_cta_text": "SHOP NOW",
-        "ff_cta_url": "shopify:\/\/collections\/gemstone-jewelry",
+        "ff_cta_url": "shopify:\/\/collections\/carbon-hyde",
         "ff_cta_style": "button button--primary"
       }
     },
