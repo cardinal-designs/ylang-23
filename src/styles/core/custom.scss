@@ -199,7 +199,6 @@
   }
 
 
-
 }
 
 @media (max-width: 1275px) { 
@@ -242,7 +241,7 @@
 @media (max-width: 991px) { 
 
   .navbar__logo__image img {
-    width: auto;
+    width: auto !important;
   }
 
   .navbar__logo {
