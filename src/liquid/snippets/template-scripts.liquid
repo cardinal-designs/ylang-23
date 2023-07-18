@@ -51,6 +51,24 @@
   </script>
 {%- endif -%}
 
+{%- if page.template_suffix == 'gifts' -%}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "significantLinks": ["https://www.ylang23.com/collections/gifts-under-1001",
+      "https://www.ylang23.com/collections/splurge-worthy-gifts",
+      "https://www.ylang23.com/collections/best-sellers",
+      "https://www.ylang23.com/collections/gifts-for-her",
+      "https://www.ylang23.com/collections/y23-mens-picks",
+      "https://www.ylang23.com/collections/gifts-for-mom",
+      "https://www.ylang23.com/collections/birthday-gifts",
+      "https://www.ylang23.com/collections/gifts-for-grad",
+      "https://www.ylang23.com/collections/for-anniversaries",
+      "https://www.ylang23.com/pages/anniversary-jewelry-buying-guide"]
+  }
+  </script>
+{%- endif -%}
 {% if settings.enable_cj_cookie %}
   {{ 'cj-event-storage2.js' | asset_url | script_tag }}
 {% endif %}
