@@ -6,6 +6,13 @@
   </div>
 {% endif %}
 
+{% assign sectionId = section.id | prepend:'#shopify-section-' %}
+{% if section.settings.custom_section_CSS != blank %}
+  <custom-style style="display:none;">
+      {{ section.settings.custom_section_CSS | replace:'[section]',sectionId }}
+  </custom-style>
+{% endif %}
+
 {% schema %}
   {
     "name": "Full Width Text Block",
@@ -14,6 +21,11 @@
         "type": "richtext",
         "id": "copy",
         "label": "Text to display"
+      },
+      {
+        "type":"html",
+        "id":"custom_section_CSS",
+        "label":"Custom Section CSS"
       }
     ],
     "presets": [
