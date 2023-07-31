@@ -128,6 +128,7 @@
         if(this.active){
           this.$nextTick(() => this.setContentHeight())
         }
+      // scroll to current collection dropdown filter 
       const parent =e.currentTarget.closest(".collection-filters__filter-panel")   
       let headerHeight = document.querySelector('.navbar.main-header-nav-container') ||  0;
       const collectionSidebar=document.querySelector(".collection-sidebar");
