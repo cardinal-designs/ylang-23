@@ -1,17 +1,17 @@
 <template lang="pug">
   .accordion(:class="accordionClass")
-    a.accordion__header(href="#", :class="headerClass", @click.prevent="activate")
+    a.accordion__header(href="#",:data-accordian="heading", :class="headerClass", @click.prevent="activate")
       span.accordion__menu-title
         slot(name="heading") {{ heading }}
       icon.accordion-icon(:name="currentIcon" size="10px")
     transition(:name="transition")
-      .accordion__content(v-if="active", ref="content", :style="contentStyle")
+      .accordion__content(:class="active?'show':'hide'" ref="content", :style="contentStyle")
         slot
 </template>
 
 <script>
   import Icon from 'scripts/components/basic/Icon.vue'
-
+//tet
   export default {
     name: 'CollectionAccordion',
     components: { Icon },
@@ -75,6 +75,8 @@
 
         if (this.active) {
           classes.push('is-open')
+        }else{
+          classes.pop('is-open')
         }
 
         return classes
@@ -115,16 +117,37 @@
           'max-height': `${ this.expandMaxHeight || (height + containerPadding) }px`
         }
       },
-      activate () {
-        if (this.$parent.activate && !this.active) {
+      activate (e) {
+        if (this.$parent.activate && !this.active) {    
           this.$parent.activate(this)
           this.$emit("active")
         } else {
           this.active = !this.active
         }
 
-        if(this.active)
+        if(this.active){
           this.$nextTick(() => this.setContentHeight())
+        }
+      // scroll to current collection dropdown filter 
+      const parent =e.currentTarget.closest(".collection-filters__filter-panel")   
+      let headerHeight = document.querySelector('.navbar.main-header-nav-container') ||  0;
+      const collectionSidebar=document.querySelector(".collection-sidebar");
+      if(collectionSidebar){
+        collectionSidebar.classList.add("relative")
+      }
+      let topHeaderHeight =document.querySelector(".top-header__container") || 0
+        if(headerHeight ){
+          headerHeight =headerHeight.clientHeight
+        }
+        if(topHeaderHeight){
+          topHeaderHeight=topHeaderHeight.clientHeight
+        }
+      const totalHeaderHeight=headerHeight +  topHeaderHeight
+      const y = parent.getBoundingClientRect().top + window.scrollY - totalHeaderHeight;
+      window.scroll({
+        top: y,
+        behavior: 'smooth'
+      });
       },
       addMaxHeight() {
         this.$nextTick(() => this.setContentHeight())
@@ -221,6 +244,12 @@
       &--wrapper {
         overflow: hidden;
       }
+      &.hide{
+        display: none;
+      } 
+      &.show{
+        display: block;
+      } 
     }
 
     &__header {
