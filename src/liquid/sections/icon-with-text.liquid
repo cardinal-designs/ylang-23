@@ -1,0 +1,70 @@
+{% capture schema %}
+  {
+  "settings": {
+    "title": {{ section.settings.section_title | json }}
+  },
+  "blocks": [
+  {% for block in section.blocks %}
+    {
+    "id": {{ block.id | json }},
+    "type": {{ block.type | json }},
+    "settings": {{ block.settings | json }},
+    "icon_image": {{ block.settings.icon_image.src | json }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+  }
+{% endcapture %}
+<icon-with-text :schema="{{ schema | escape | strip }}" />
+{% schema %}
+  {
+    "name": "Icon With Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icon-block",
+        "name": "Icon Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "icon_title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "icon_content",
+            "label": "Content",
+            "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>"
+          },
+          {
+            "type": "text",
+            "id": "icon_link_text",
+            "label": "Icon Link Text",
+            "default": "Icon Link"
+          }, {
+            "type": "url",
+            "id": "icon_link_url",
+            "label": "Icon Link Url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "Image",
+        "name": "Icon With Text"
+      }
+    ]
+  }
+{% endschema %}
