@@ -18,9 +18,7 @@
                             <v-link class="single__block-link link" v-if="block.settings.icon_link_url"
                                 :href="block.settings.icon_link_url">
                                 {{ block.settings.icon_link_text }}
-                                <svg data-v-9dd96b3e="" class="icon--chevron-right fill-black">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-right"></use>
-                                </svg>
+                                <icon name="chevron-right" size="10px" />
                             </v-link>
                         </div>
                     </div>
@@ -49,13 +47,22 @@
     flex: 0 0 25%;
     text-align: center;
 }
+.single__block-link{
+    &.link{
+        svg{
+            display: block !important;
+        }
+     
+    }
+}
 </style>
 <script>
-import VLink from '../buttons/VLink.vue'
+import VLink from '../buttons/VLink.vue';
+import Icon from '../basic/Icon.vue'
 export default {
     name: "IconWithText",
     components: {
-        VLink
+        VLink,Icon
     },
     props: {
         schema: Object

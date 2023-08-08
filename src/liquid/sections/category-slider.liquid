@@ -1,7 +1,8 @@
 {% capture schema %}
   {
   "settings": {
-    "title": {{ section.settings.title | json }}
+  "title": {{ section.settings.title | json }},
+  "enable_slider":{{ section.settings.enable_slider | json }}
   },
   "blocks": [
   {% for block in section.blocks %}
@@ -23,6 +24,11 @@
         "type": "text",
         "id": "title",
         "label": "Title"
+      }, {
+        "type": "checkbox",
+        "id": "enable_slider",
+        "label": "Enable slider",
+        "default": true
       }
     ],
     "blocks": [

@@ -1,9 +1,9 @@
 <template>
   <section class="category-slider">
     <div class="container">
-      <div class="category-slider__title-wrapper">
-        <h2 class="category-slider__title">{{ schema.settings.title }}</h2>
-        <div class="category-slider__btn">
+      <div class="category-slider__title-wrapper" :class="{'w-full':!isSlider}">
+        <h2 class="category-slider__title" >{{ schema.settings.title }}</h2>
+        <div class="category-slider__btn" v-if="isSlider">
           <button class="category-slider__btn__previous-slide" @click="previousSlide">
             <icon name="chevron-left" size="14px" />
           </button>
@@ -12,7 +12,7 @@
           </button>
         </div>
       </div>
-      <swiper :options="desktopOptions" ref="categorySlider">
+      <swiper :options="desktopOptions" ref="categorySlider" v-if="isSlider">
         <swiper-slide v-for="block in schema.blocks" :key="block.id">
           <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
             <div class="category-slider__slide__image" v-if="block.settings.slider_image.src">
@@ -25,6 +25,20 @@
           </v-link>
         </swiper-slide>
       </swiper>
+      <div class="category-slider__slide-container" v-if="!isSlider">
+        <div class="category-slider__slide-single" v-for="block in schema.blocks" :key="block.id">
+          <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
+            <div class="category-slider__slide__image" v-if="block.settings.slider_image.src">
+              <img :src="block.settings.slider_image.src" :alt="block.settings.slider_image.alt" />
+            </div>
+            <div class="category-slider__detail">
+              <p>{{ block.settings.slider_title }}</p>
+              <icon name="chevron-right" size="10px" />
+            </div>
+          </v-link>
+        </div>
+        
+      </div>
     </div>
   </section>
 </template>
@@ -58,6 +72,7 @@ export default {
           }
         },
       },
+      isSlider:this.schema.settings.enable_slider
     };
   },
   methods: {
@@ -100,6 +115,17 @@ export default {
       text-align: left;
       margin-bottom: 18px;
     }
+    &.w-full{
+     .category-slider__title{
+      width: 100%;
+      margin: 0;
+     }
+     .category-slider__btn{
+      width: 100%;
+      margin: 0;
+     }
+    }
+   
   }
 
   &__btn__previous-slide {
@@ -113,7 +139,7 @@ export default {
   &__title {
     width: 80%;
     margin-left: 20%;
-
+  
     @media(max-width: 768px) {
       margin-left: 0%;
     }
@@ -124,6 +150,21 @@ export default {
     display: flex;
     align-items: center;
     justify-content: end;
+  }
+  .category-slider__slide-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  .category-slider__slide-single {
+    width: calc(25% - 25px);
+    margin-right: 25px;
+    margin-bottom: 25px;
+    @media(max-width: 768px) {
+      width: calc(50% - 15px);
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+}
   }
 }
 </style>
