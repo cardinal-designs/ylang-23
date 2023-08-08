@@ -1,56 +1,12 @@
 {
   "sections": {
-    "hero-banner": {
-      "type": "hero-banner",
-      "settings": {
-        "max_width": "1440px",
-        "top_margin": 8,
-        "bottom_margin": 8,
-        "layout": "short",
-        "enable_text_box": false,
-        "text_box_bg_color": "bg-black",
-        "mobile_layout": "below",
-        "mobile_text_alignment": "center",
-        "horizontal_layout": "left",
-        "vertical_layout": "middle",
-        "background_image": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-01-Foundrae-Desktop-2880x1088.jpg",
-        "enable_mobile_image": true,
-        "background_image_mobile": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-01-Foundrae-Mobile-767x630.jpg",
-        "hero_url": "shopify:\/\/collections\/foundrae",
-        "url_aria_label": "Link to Lito",
-        "video_url": "",
-        "enable_overlay": false,
-        "overlay_color": "bg-accent-1",
-        "content_background_color": "#ffffff",
-        "overlay_opacity": 0,
-        "pre_heading": "",
-        "heading": "",
-        "sub_heading": "",
-        "body_copy": "",
-        "pre_heading_color": "color-black",
-        "heading_color": "color-black",
-        "sub_heading_color": "color-black",
-        "body_copy_color": "color-black",
-        "mobile_bg_color": "",
-        "pre_heading_color_mobile": "color-black",
-        "heading_color_mobile": "color-black",
-        "sub_heading_color_mobile": "color-black",
-        "body_copy_color_mobile": "color-black",
-        "enable_cta": false,
-        "cta_color": "#000000",
-        "cta_bordercolor": "#000000",
-        "cta_textcolor": "#ffffff",
-        "cta_text": "Shop Now",
-        "cta_url": "shopify:\/\/collections\/foundrae"
-      }
-    },
     "image-strip": {
       "type": "image-strip",
       "blocks": {
         "782d35dd-b0f0-4d74-a98b-baf2a1e74a32": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-03-Earrings-1360x1360.jpg",
+            "itp_logo": "shopify:\/\/shop_images\/image2.png",
             "itp_url": "shopify:\/\/collections\/earrings",
             "itp_link_target": "_self",
             "link_aria_label": "Link to Earrings"
@@ -59,29 +15,19 @@
         "2938e6e3-c459-4a16-9cb0-618147d6140a": {
           "type": "testimonial_block",
           "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-03-Marla-Aaron-1360x1360.jpg",
+            "itp_logo": "shopify:\/\/shop_images\/image9.png",
             "itp_url": "shopify:\/\/collections\/marla-aaron",
             "itp_link_target": "_self",
             "link_aria_label": "Link to Marla Aaron"
-          }
-        },
-        "309ad212-f126-41b6-9390-f200b5bf322e": {
-          "type": "testimonial_block",
-          "settings": {
-            "itp_logo": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-05-Rings-1360x1360.jpg",
-            "itp_url": "shopify:\/\/collections\/rings",
-            "itp_link_target": "_self",
-            "link_aria_label": "Link to Rings"
           }
         }
       },
       "block_order": [
         "782d35dd-b0f0-4d74-a98b-baf2a1e74a32",
-        "2938e6e3-c459-4a16-9cb0-618147d6140a",
-        "309ad212-f126-41b6-9390-f200b5bf322e"
+        "2938e6e3-c459-4a16-9cb0-618147d6140a"
       ],
       "settings": {
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 0,
         "padding_left": 0,
         "padding_right": 0,
@@ -93,8 +39,8 @@
       "type": "nasto-custom",
       "settings": {
         "featured_designer_name": "New Arrivals",
-        "featured_designer_image_desktop": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-Desktop-1556x1324_2d22f1e5-26ea-4dae-8baa-04e5577b7daa.jpg",
-        "featured_designer_image_mb": "shopify:\/\/shop_images\/Ylang-23-2023-06-26-Position-06-Shay-750x398x2_c1748921-4260-4cd1-998f-c7902ea43f49.jpg",
+        "featured_designer_image_desktop": "shopify:\/\/shop_images\/image3.png",
+        "featured_designer_image_mb": "shopify:\/\/shop_images\/image3.png",
         "enable_cta": false,
         "cta_text": "Shop All",
         "cta_url": "https:\/\/www.ylang23.com\/collections\/new-arrivals",
@@ -131,6 +77,7 @@
     },
     "fifty-fifty": {
       "type": "fifty-fifty",
+      "disabled": true,
       "settings": {
         "max_width": "1440px",
         "margin_top": 8,
@@ -156,12 +103,14 @@
     },
     "shoppable-instagram": {
       "type": "shoppable-instagram",
+      "disabled": true,
       "settings": {
         "title": ""
       }
     },
     "seo-content": {
       "type": "seo-content",
+      "disabled": true,
       "settings": {
         "margin_top": 56,
         "margin_bottom": 56,
@@ -173,16 +122,70 @@
       "type": "hp-nosto",
       "settings": {
       }
+    },
+    "dc6b36f6-cc4b-444c-834c-b21e0916c653": {
+      "type": "icon-with-text",
+      "blocks": {
+        "bad30fe6-6c81-4475-933f-a320c26a43a3": {
+          "type": "icon-block",
+          "settings": {
+            "icon_svg": "",
+            "icon_title": "Complimentary Shipping & Returns",
+            "icon_content": "<p>We offer complimentary shipping and returns on all Tiffany orders.<\/p>",
+            "icon_link_text": "Learn More",
+            "icon_link_url": "\/"
+          }
+        },
+        "df308d3e-f44c-4dcb-9e7b-5d4482b83a4c": {
+          "type": "icon-block",
+          "settings": {
+            "icon_svg": "",
+            "icon_title": "Tiffany At Your Service",
+            "icon_content": "<p>Our client care experts are always here to help.<\/p>",
+            "icon_link_text": "Contact Us",
+            "icon_link_url": "\/"
+          }
+        },
+        "1da6a808-a04f-4df0-9197-8f87ff2815ac": {
+          "type": "icon-block",
+          "settings": {
+            "icon_svg": "",
+            "icon_title": "Book an Appointment",
+            "icon_content": "<p>We're happy to help with in-store or virtual appointments.<\/p>",
+            "icon_link_text": "Book Now",
+            "icon_link_url": "\/"
+          }
+        },
+        "8fd4e6c9-68d0-461c-b956-e6ef44f0567c": {
+          "type": "icon-block",
+          "settings": {
+            "icon_svg": "",
+            "icon_title": "The Iconic Blue Box",
+            "icon_content": "<p>Your Tiffany purchase comes wrapped in our Blue Box packaging.<\/p>",
+            "icon_link_text": "Explore All Gifts",
+            "icon_link_url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "bad30fe6-6c81-4475-933f-a320c26a43a3",
+        "df308d3e-f44c-4dcb-9e7b-5d4482b83a4c",
+        "1da6a808-a04f-4df0-9197-8f87ff2815ac",
+        "8fd4e6c9-68d0-461c-b956-e6ef44f0567c"
+      ],
+      "settings": {
+        "section_title": "The Tiffany Experience"
+      }
     }
   },
   "order": [
-    "hero-banner",
     "image-strip",
     "7a4da0a8-88fe-4592-833a-d4ded606e5fa",
     "featured-designers",
     "fifty-fifty",
     "shoppable-instagram",
     "seo-content",
-    "hp-nosto"
+    "hp-nosto",
+    "dc6b36f6-cc4b-444c-834c-b21e0916c653"
   ]
 }
