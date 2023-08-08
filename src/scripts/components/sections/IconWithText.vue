@@ -6,9 +6,11 @@
                 <div class="icon__with-text-item-wrapper">
                     <div class="single__block" v-for="block in schema.blocks">
                         <div class="single__block-item">
-                            <div class="single__block-icon" v-if="block.settings.icon_image">
+                            <div class="single__block-icon">
                                 <img height="48" width="48" :src="block.settings.icon_image.src" class="reveal"
-                                    :alt="block.settings.icon_title">
+                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image.src">
+                                    <img height="48" width="48" :src="block.settings.icon_image" class="reveal"
+                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image">
                             </div>
                             <div class="single__block-content">
                                 <span class="h4" v-if="block.settings.icon_title">{{ block.settings.icon_title }}</span>

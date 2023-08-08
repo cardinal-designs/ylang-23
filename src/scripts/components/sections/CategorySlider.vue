@@ -15,8 +15,9 @@
       <swiper :options="desktopOptions" ref="categorySlider" v-if="isSlider">
         <swiper-slide v-for="block in schema.blocks" :key="block.id">
           <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
-            <div class="category-slider__slide__image" v-if="block.settings.slider_image.src">
-              <img :src="block.settings.slider_image.src" :alt="block.settings.slider_image.alt" />
+            <div class="category-slider__slide__image" >
+              <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image.src"/>
+                <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image" />
             </div>
             <div class="category-slider__detail">
               <p>{{ block.settings.slider_title }}</p>
@@ -28,8 +29,9 @@
       <div class="category-slider__slide-container" v-if="!isSlider">
         <div class="category-slider__slide-single" v-for="block in schema.blocks" :key="block.id">
           <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
-            <div class="category-slider__slide__image" v-if="block.settings.slider_image.src">
-              <img :src="block.settings.slider_image.src" :alt="block.settings.slider_image.alt" />
+            <div class="category-slider__slide__image">
+              <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image.src"/>
+                <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image" />
             </div>
             <div class="category-slider__detail">
               <p>{{ block.settings.slider_title }}</p>
@@ -155,6 +157,8 @@ export default {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
   .category-slider__slide-single {
     width: calc(25% - 25px);
     margin-right: 25px;
