@@ -32,6 +32,7 @@
 <style lang="scss">
 .icon__with-text {
   padding: 60px 0;
+  margin-top: 50px;
   h2 {
     text-align: center;
     margin-bottom: 40px;
