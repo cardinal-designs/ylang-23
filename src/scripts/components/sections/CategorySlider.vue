@@ -17,7 +17,7 @@
           <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
             <div class="category-slider__slide__image" >
               <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image.src"/>
-                <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image" />
+              <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image && typeof block.settings.slider_image == 'string'" />
             </div>
             <div class="category-slider__detail">
               <p>{{ block.settings.slider_title }}</p>
@@ -31,7 +31,7 @@
           <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
             <div class="category-slider__slide__image">
               <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image.src"/>
-                <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image" />
+              <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-if="block.settings.slider_image && typeof block.settings.slider_image == 'string' " />
             </div>
             <div class="category-slider__detail">
               <p>{{ block.settings.slider_title }}</p>
@@ -89,17 +89,17 @@ export default {
 </script>
 <style scoped lang="scss">
 .category-slider {
-  padding: 35px 0 70px 0;
+  padding: 35px 0 35px 0;
 
   @media(max-width: 768px) {
-    padding: 18px 0 36px 0;
+    padding: 20px 0 20px 0;
   }
-
+  
   &__detail {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 5px;
+    padding: 10px 0;
 
     p {
       color: #000000;
@@ -118,11 +118,11 @@ export default {
       margin-bottom: 18px;
     }
     &.w-full{
-     .category-slider__title{
+     .category-slider__title {
       width: 100%;
       margin: 0;
      }
-     .category-slider__btn{
+     .category-slider__btn {
       width: 100%;
       margin: 0;
      }
@@ -147,28 +147,36 @@ export default {
     }
   }
 
-  &__btn {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  .category-slider__slide-container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-  .category-slider__slide-single {
-    width: calc(25% - 25px);
-    margin-right: 25px;
-    margin-bottom: 25px;
-    @media(max-width: 768px) {
-      width: calc(50% - 15px);
-      margin-right: 15px;
-      margin-bottom: 15px;
+    &__btn {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
     }
-}
+    .category-slider__slide-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap: 25px;
+      justify-content: center;
+    .category-slider__slide-single {
+      width: calc(25% - 25px);
+      margin-right: 0;
+      margin-bottom: 25px;
+      @media(max-width: 768px) {
+        width: calc(50% - 15px);
+        margin-bottom: 15px;
+      }
+    }
   }
+  .category-slider__detail,
+    .category-slider__detail p {
+      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 24px;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      margin: 0;
+    }
 }
 </style>

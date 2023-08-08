@@ -145,5 +145,9 @@ export default {
         flex-direction: column;
       }
     }
+    .itp__img-wrap {
+      height: 100%;
+      width: 100%;
+    }
   }
 </style>
