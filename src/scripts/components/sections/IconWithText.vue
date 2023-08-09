@@ -106,6 +106,10 @@
                 display: inline-block !important;
                 margin: 0 0 0 4px;
             }
+            &:hover {
+              text-decoration: underline;
+              text-underline-offset: 3px;
+            }
           }
         }
       }
