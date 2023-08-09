@@ -31,36 +31,65 @@
     </div>
 </template>
 <style lang="scss">
-.icon__with-text-item-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .icon__with-text {
-    padding: 60px 0;
-}
-
-.icon__with-text h2 {
+  padding: 60px 0;
+  margin-top: 50px;
+  h2 {
     text-align: center;
     margin-bottom: 40px;
-}
-
-.single__block {
-    flex: 0 0 25%;
-    text-align: center;
-    .single__block-icon{
-   display: block;
+  }
+  .icon__with-text-item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    @media (max-width: 991px) {
+      gap: 40px;
+      flex-wrap: wrap;
     }
-}
-
-.single__block-link{
-    &.link{
-        svg{
-            display: block !important;
+    @media (max-width: 767px) { 
+      display: block;
+    }
+    .single__block {
+      flex: 0 0 calc(25% - 40px);
+      text-align: center;
+      @media (max-width: 991px) {
+        flex: 0 0 calc(50% - 40px);
+        text-align: center;
+      }
+      @media (max-width: 767px) { 
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: 30px;       
+      }
+      &.single__block:last-child {
+        margin-bottom: 0;
+      }
+      .single__block-item {
+        .single__block-icon {
+          max-width: 110px;
+          margin: 0 auto;
         }
-     
+        .single__block-content {
+          margin: 20px 0;
+          .single__block-icon-content {
+            margin: 15px 0;
+          }
+        }
+        .single__block-link {
+          width: 100%;
+          .link__content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+                display: inline-block !important;
+            }
+          }
+        }
+      }
     }
+  }
 }
 </style>
 <script>
