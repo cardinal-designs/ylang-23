@@ -68,7 +68,7 @@ export default {
       desktopOptions: {
         slidesPerView: 4,
         spaceBetween: 30,
-        loop: true,
+        loop: false,
         breakpoints: {
           765: {
             spaceBetween: 15,
@@ -100,12 +100,16 @@ export default {
   &__detail {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 0;
 
     p {
       color: #000000;
     }
+
+    svg {
+      margin: 4px 0 0px 5px;
+    }
+
   }
 
   &__title-wrapper {
@@ -173,7 +177,6 @@ export default {
   }
   .category-slider__detail,
   .category-slider__detail p {
-    margin: 0;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 100%;

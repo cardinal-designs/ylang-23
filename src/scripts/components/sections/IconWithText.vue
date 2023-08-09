@@ -1,5 +1,5 @@
 <template>
-    <div class="icon__with-text bg-light-grey">
+    <div class="icon__with-text bg-light-grey" :id="schema.settings.id">
         <div>
             <div class="container">
                 <h2 class="h2" v-if="schema.settings.title">{{ schema.settings.title }}</h2>
@@ -30,6 +30,7 @@
         </div>
     </div>
 </template>
+
 <style lang="scss">
 .icon__with-text {
   padding: 60px 0;
@@ -42,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 40px;
+    column-gap: 20px;
     @media (max-width: 991px) {
       gap: 40px;
       flex-wrap: wrap;
@@ -72,8 +73,27 @@
         }
         .single__block-content {
           margin: 20px 0;
+          span.h4{
+            display: block;
+            @media (max-width: 1366px) { 
+              min-height: 45px;
+            }
+            @media (max-width: 991px) { 
+              min-height: auto;
+            }
+          }
           .single__block-icon-content {
             margin: 15px 0;
+            line-height: 24px;
+            @media (max-width: 767px) { 
+              font-size: 14px;
+              line-height: 21px;
+            }
+          }
+          .single__block-icon-content p {
+            @media (max-width: 767px) { 
+              font-size: 14px;
+            }
           }
         }
         .single__block-link {
@@ -84,6 +104,7 @@
             justify-content: center;
             svg {
                 display: inline-block !important;
+                margin: 0 0 0 4px;
             }
           }
         }
@@ -104,4 +125,5 @@ export default {
         schema: Object
     }
 }
+
 </script>

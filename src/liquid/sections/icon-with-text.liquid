@@ -1,7 +1,8 @@
 {% capture schema %}
   {
   "settings": {
-    "title": {{ section.settings.section_title | json }}
+    "title": {{ section.settings.section_title | json }},
+    "id": {{ section.settings.custom_id | json }}
   },
   "blocks": [
   {% for block in section.blocks %}
@@ -20,6 +21,11 @@
   {
     "name": "Icon With Text",
     "settings": [
+      {
+        "type": "text",
+        "id": "custom_id",
+        "label": "Add custom id"
+      },
       {
         "type": "text",
         "id": "section_title",
