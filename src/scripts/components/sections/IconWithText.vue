@@ -6,18 +6,19 @@
                 <div class="icon__with-text-item-wrapper">
                     <div class="single__block" v-for="block in schema.blocks">
                         <div class="single__block-item">
-                            <div class="single__block-icon">
+                            <v-link class="single__block-icon" 
+                                :href="block.settings.icon_link_url">
                                 <img height="48" width="48" :src="block.settings.icon_image.src" class="reveal"
-                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image.src">
+                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image.src &&  typeof block.settings.icon_image !== 'string' ">
                                     <img height="48" width="48" :src="block.settings.icon_image" class="reveal"
-                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image  && typeof block.settings.icon_image == 'string'">
-                            </div>
+                                    :alt="block.settings.icon_title" v-if="block.settings.icon_image &&  typeof block.settings.icon_image == 'string'">
+                            </v-link>
                             <div class="single__block-content">
                                 <span class="h4" v-if="block.settings.icon_title">{{ block.settings.icon_title }}</span>
                                 <div class="single__block-icon-content" v-if="block.settings.icon_content"
                                     v-html="block.settings.icon_content"></div>
                             </div>
-                            <v-link class="single__block-link link" v-if="block.settings.icon_link_url"
+                            <v-link class="single__block-link link" 
                                 :href="block.settings.icon_link_url">
                                 {{ block.settings.icon_link_text }}
                                 <icon name="chevron-right" size="10px" />
