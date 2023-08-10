@@ -124,6 +124,11 @@
   display: block;
 }
 
+#homepage-nosto-curated .swiper-slide-duplicate {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (min-width: 992px) { 
 
   .featured-designer__products .footer-value-prop__title {
