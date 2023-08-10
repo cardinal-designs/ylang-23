@@ -68,7 +68,7 @@ export default {
       desktopOptions: {
         slidesPerView: 4,
         spaceBetween: 30,
-        loop: false,
+        loop: true,
         breakpoints: {
           765: {
             spaceBetween: 15,
