@@ -14,7 +14,7 @@
       </div>
       <swiper :options="desktopOptions" ref="categorySlider" v-if="isSlider">
         <swiper-slide v-for="block in schema.blocks" :key="block.id">
-          <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
+          <a :href="block.settings.slider_link_url" class="category-slider__slide">
             <div class="category-slider__slide__image" >
               <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image && typeof block.settings.slider_image !== 'string' " />
                 <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-else-if="block.settings.slider_image && typeof block.settings.slider_image === 'string'  " />
@@ -24,12 +24,12 @@
               <p>{{ block.settings.slider_title }}</p>
               <icon name="chevron-right" size="10px" />
             </div>
-          </v-link>
+          </a>
         </swiper-slide>
       </swiper>
       <div class="category-slider__slide-container" v-if="!isSlider">
         <div class="category-slider__slide-single" v-for="block in schema.blocks" :key="block.id">
-          <v-link :href="block.settings.slider_link_url" class="category-slider__slide">
+          <a :href="block.settings.slider_link_url" class="category-slider__slide">
             <div class="category-slider__slide__image">
               <img :src="block.settings.slider_image.src" :alt="block.settings.slider_title" v-if="block.settings.slider_image && typeof block.settings.slider_image !== 'string' " />
                 <img :src="block.settings.slider_image" :alt="block.settings.slider_title" v-else-if="block.settings.slider_image && typeof block.settings.slider_image === 'string'  " />
@@ -39,7 +39,7 @@
               <p>{{ block.settings.slider_title }}</p>
               <icon name="chevron-right" size="10px" />
             </div>
-          </v-link>
+          </a>
         </div>
         
       </div>
@@ -49,14 +49,12 @@
 <script>
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import Icon from '../basic/Icon.vue';
-import VLink from '../buttons/VLink.vue'
 export default {
   name: "CategorySlider",
   components: {
     swiper,
     swiperSlide,
     Icon,
-    VLink
   },
   props: {
     schema: {
@@ -107,9 +105,9 @@ export default {
     }
 
     svg {
-      margin: 4px 0 0px 5px;
+      margin: 0 0 0 5px;
     }
-
+    
   }
 
   &__title-wrapper {
@@ -165,6 +163,7 @@ export default {
       flex-wrap: wrap;
       column-gap: 25px;
       justify-content: center;
+
     .category-slider__slide-single {
       width: calc(25% - 25px);
       margin-right: 0;
@@ -173,17 +172,24 @@ export default {
         width: calc(50% - 15px);
         margin-bottom: 15px;
       }
+
     }
   }
-  .category-slider__detail,
-  .category-slider__detail p {
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 100%;
-    font-size: 1.25rem;
-    font-family: acumin-pro-extra-condensed,sans-serif;
-    letter-spacing: 1px;
-  }
 
+  .category-slider__detail,
+    .category-slider__detail p {
+      margin: 0;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 100%;
+      font-size: 1.25rem;
+      font-family: korolev,sans-serif;
+      letter-spacing: 1px;
+      font-style: italic;
+    }
 }
+.icon.icon--arrow_long_right {
+  display: none !important;
+}
+
 </style>
