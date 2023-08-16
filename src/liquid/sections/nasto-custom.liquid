@@ -11,7 +11,7 @@
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
             </svg>
           </a>
-       {% endif %}
+        {% endif %}
       </div>
       <div class="featured-designer__inner-image featured-designer__inner-image-desktop" data-style="background-image: url('{{ section.settings.featured_designer_image_desktop | img_url: 'master' }}');"></div>
       <div class="featured-designer__inner-image featured-designer__inner-image-mobile" data-style="background-image: url('{{ section.settings.featured_designer_image_mb | img_url: 'master' }}')"></div>
@@ -50,11 +50,13 @@
       {
         "type": "image_picker",
         "id": "featured_designer_image_desktop",
-        "label": "Image - Desktop"
+        "label": "Image - Desktop",
+        "info": "Recommended size: 1800x1532 Tall"
       }, {
         "type": "image_picker",
         "id": "featured_designer_image_mb",
-        "label": "Image - Mobile"
+        "label": "Image - Mobile",
+        "info": "Recommended size: 1800x955 Short"
       }, {
         "type": "header",
         "content": "CTA",

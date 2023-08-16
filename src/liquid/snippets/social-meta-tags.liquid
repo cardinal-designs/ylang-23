@@ -1,6 +1,7 @@
 {%- assign og_title = page_title -%}
 {%- assign og_url = canonical_url -%}
 {%- assign og_type = 'website' -%}
+{% assign page_og_image = page.metafields.custom.og_image_url %}
 {%- assign og_description = page_description | default: shop.description | default: shop.name -%}
 {% if settings.share_image %}
   {%- capture og_image_tags -%}
@@ -13,7 +14,7 @@
 {% endif %}
 
 {% comment %}
-  Template specific overides
+Template specific overides
 {% endcomment %}
 {%- if template.name == 'product' -%}
   {%- assign og_title = product.title | strip_html -%}
@@ -76,6 +77,12 @@
   <meta property="product:price:amount" content="{{ product.price | money_without_currency | strip_html }}">
   <meta property="product:price:currency" content="{{ shop.currency }}">
 {%- endif -%}
+{% if template.name == 'page' %}
+  {%- capture og_image_tags -%}
+    <meta property="og:image:secure_url" content="https:{{ page_og_image | img_url: 'master' }}">
+    <meta property="og:image:alt" content="{{ page.title }}">
+  {%- endcapture -%}
+{% endif %}
 {{ og_image_tags }}
 
 <meta name="twitter:site" content="{{ settings.social_twitter_link | split: 'twitter.com/' | last | prepend: '@' }}">
