@@ -1,7 +1,7 @@
 {% capture schema %}
   {
   "settings": {
-    "title": {{ section.settings.title | json }},
+      "title": {{ section.settings.title | json }},
   "enable_slider":{{ section.settings.enable_slider | json }}
   },
   "blocks": [
@@ -40,7 +40,7 @@
             "type": "image_picker",
             "id": "slider_image",
             "label": "Image",
-            "info": "Recommended size: 800x878 Tall"
+            "info": "Recommended size: 800x878"
           }, {
             "type": "text",
             "id": "slider_title",
