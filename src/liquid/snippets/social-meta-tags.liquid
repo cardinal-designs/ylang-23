@@ -79,7 +79,10 @@ Template specific overides
 {%- endif -%}
 {% if template.name == 'page' %}
   {%- capture og_image_tags -%}
+    <meta property="og:image" content="https:{{ page_og_image | img_url: 'master' }}">
     <meta property="og:image:secure_url" content="https:{{ page_og_image | img_url: 'master' }}">
+    <meta property="og:image:width" content="1534">
+    <meta property="og:image:height" content="1260">
     <meta property="og:image:alt" content="{{ page.title }}">
   {%- endcapture -%}
 {% endif %}
