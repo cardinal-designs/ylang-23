@@ -20,7 +20,9 @@
   {{ page_title }}
   {%- assign escaped_page_title = page_title | escape -%}
   {%- unless escaped_page_title contains shop.name -%}
+    {%- comment -%}
     &ndash; {{ shop.name }}
+    {%- endcomment -%}
   {%- endunless -%}
 {%- endcapture -%}
 <title>{{ seo_title | strip }}</title>
