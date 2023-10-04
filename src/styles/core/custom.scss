@@ -259,3 +259,90 @@
 }
 
 /***** New Badge CSS ******/
+
+.itp__img-wrap {
+  width: 100%;
+  height: 100%;  
+}
+
+/***** Icon with text start *****/
+
+.icon__with-text-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.icon__with-text {
+  padding: 60px 0;
+}
+
+.icon__with-text h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.single__block {
+  flex: 0 0 calc(25% - 40px);
+  text-align: center;
+}
+
+.single__block-icon-content {
+  margin: 15px 0;
+}
+
+.single__block-content {
+  margin: 20px 0;
+}
+
+.single__block-icon {
+  max-width: 110px;
+  margin: 0 auto;
+}
+
+.single__block-link svg {
+  width: 10px;
+  height: 10px;
+}
+
+.single__block-link {
+  width: 100%;
+}
+
+@media (max-width: 991px) { 
+
+  .icon__with-text-item {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .single__block {
+    flex: 0 0 calc(50% - 40px);
+    text-align: center;
+  } 
+
+}
+
+@media (max-width: 767px) { 
+
+  .single__block {
+    flex: 0 0 100%;
+    text-align: center;
+  } 
+
+  .single__block {
+    margin-bottom: 30px;
+  }
+
+  .icon__with-text-item {
+    display: block;
+  }
+
+  .single__block:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+/***** Icon with text end *****/

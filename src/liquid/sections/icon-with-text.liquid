@@ -1,0 +1,128 @@
+<div class="icon__with-text bg-light-grey">
+  <div>
+    <div class="container">
+      {%- if section.settings.section_title != blank -%}
+        <h2 class="h2">{{ section.settings.section_title }}</h2>
+      {%- endif -%}
+      <div class="icon__with-text-item">
+        {%- for block in section.blocks -%}
+          <div class="single__block">
+            <div class="single__block-item">
+              <div class="single__block-icon">
+                {% if block.settings.icon_svg != blank %}
+                  {{ block.settings.icon_svg }}
+                {% elsif block.settings.icon_image != blank %}
+                  <img height="48" width="48" src="{{ block.settings.icon_image | img_url: 'master' }}" class="reveal" alt="{{ block.settings.icon_image.alt | default:block.settings.icon_title | default:page.title }}">
+                {% else %}
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                {% endif %}
+              </div>
+              <div class="single__block-content">
+                {% if block.settings.icon_title != blank %}
+                  <span class="h4">{{ block.settings.icon_title }}</span>
+                {% endif %}
+
+                {% if block.settings.icon_content != blank %}
+                  <div class="single__block-icon-content">{{ block.settings.icon_content }}</div>
+                {% endif %}    
+              </div>
+              {%- if block.settings.icon_link_url != blank -%}
+                <a class="single__block-link link" href="{{ block.settings.icon_link_url }}">
+                  {{ block.settings.icon_link_text }}
+                  <svg data-v-9dd96b3e="" class="icon--chevron-right fill-black">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+  .icon__with-text-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon__with-text {
+    padding: 60px 0;
+  }
+
+  .icon__with-text h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .single__block {
+    flex: 0 0 25%;
+    text-align: center;
+  }
+
+</style>
+
+
+{% schema %}
+{
+  "name": "Icon With Text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section title"
+    }
+	],
+	"blocks": [
+    {
+      "type": "icon-block",
+      "name": "Icon Block",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "icon_svg",
+          "label": "SVG Icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "icon_title",
+          "label": "Title"          
+        },
+        {
+          "type": "richtext",
+          "id": "icon_content",
+          "label": "Content",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>"          
+        },
+        {
+          "type": "text",
+          "id": "icon_link_text",
+          "label": "Icon Link Text",
+          "default": "Icon Link"          
+        },
+        {
+          "type": "url",
+          "id": "icon_link_url",
+          "label": "Icon Link Url"          
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Icon With Text"
+    }
+  ]
+}
+{% endschema %}
+
