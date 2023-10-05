@@ -422,7 +422,7 @@ export const toggleFilterItems = (filterValue) => {
       queryString += `${singleFilter}`;
     }
   });
-  debugger
+  
   // Remove the parameter if the search string is blank
   if (queryString === "") {
     history.replaceState(null, null, window.location.pathname);
