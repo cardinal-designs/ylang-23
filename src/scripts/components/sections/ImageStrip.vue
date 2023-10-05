@@ -66,7 +66,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .container {
+    .container {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -144,6 +144,10 @@ export default {
         justify-content: center;
         flex-direction: column;
       }
+    }
+    .itp__img-wrap {
+      height: 100%;
+      width: 100%;
     }
   }
 </style>
