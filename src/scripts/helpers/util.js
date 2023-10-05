@@ -402,17 +402,14 @@ export const swiperLoopSlideChange = (swiper, slidesPerView, customSlideTo) => {
 // For query para in add to url
 export const toggleFilterItems = (filterValue) => {
   const search = window.location.search.replace("?", "");
-  const encodedFilterValue = encodeURIComponent(filterValue)
-  
   let queryString = "";
   let filterArray = search ? search.split("&") : [];
-  
-  if (filterArray.includes(encodedFilterValue)) {
+  if (filterArray.includes(filterValue)) {
     filterArray = filterArray.filter(
-      (singleSearchItem) => singleSearchItem !== encodedFilterValue
+      (singleSearchItem) => singleSearchItem !== filterValue
     );
   } else {
-    filterArray.push(encodedFilterValue);
+    filterArray.push(filterValue);
   }
   filterArray.forEach((singleFilter, index) => {
     
@@ -422,7 +419,6 @@ export const toggleFilterItems = (filterValue) => {
       queryString += `${singleFilter}`;
     }
   });
-  
   // Remove the parameter if the search string is blank
   if (queryString === "") {
     history.replaceState(null, null, window.location.pathname);
