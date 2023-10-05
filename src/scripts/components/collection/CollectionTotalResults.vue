@@ -40,6 +40,7 @@
       removeAllFilters() {
         let newCurrentFilters = []
         this.$store.dispatch('collections/updateFilters', newCurrentFilters)
+        history.replaceState(null, null, window.location.pathname)
       }
     }
   }

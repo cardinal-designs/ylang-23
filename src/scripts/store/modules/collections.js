@@ -61,10 +61,12 @@ const mutations = {
     cacheStateToSessionStorage(state);
   },
   SET_STATE_FROM_CACHE: (state, cacheState) => {
+    const search = window.location.search
+    const filters = search ? search.replace('?','').split('&'):[]
     state.currentHandle = cacheState.currentHandle;
     state.currentPage = cacheState.currentPage;
     state.currentSort = cacheState.currentSort;
-    state.currentFilters = cacheState.currentFilters;
+    state.currentFilters = filters;
     state.currentTotal = cacheState.currentTotal;
     state.paginationAmount = cacheState.paginationAmount;
     state.currentScrollPos = cacheState.currentScrollPos;
@@ -109,6 +111,8 @@ const actions = {
     commit('SET_STATE_FROM_CACHE', cache);
   },
   setInitialCollectionState({ commit }, init) {
+    const search = window.location.search
+    const filters = search ? search.replace('?','').split('&'):[]
     commit('SET_CURRENT_HANDLE', init.handle);
     commit(
       'SET_CURRENT_PRODUCTS',
@@ -119,7 +123,7 @@ const actions = {
     commit('SET_PAGINATION_AMOUNT', init.paginationAmount);
     commit('SET_CURRENT_SORT', init.sort);
     commit('SET_CURRENT_PAGE', init.page);
-    commit('SET_CURRENT_FILTERS', init.currentFilters);
+    commit('SET_CURRENT_FILTERS', filters);
   },
   setCollectionScrollPos({ commit }, pos) {
     commit('SET_CURRENT_SCROLL_POS', pos);

@@ -397,3 +397,39 @@ export const swiperLoopSlideChange = (swiper, slidesPerView, customSlideTo) => {
     }
   }
 };
+
+
+// For query para in add to url
+export const toggleFilterItems = (filterValue) => {
+  const search = window.location.search.replace("?", "");
+  const encodedFilterValue = encodeURIComponent(filterValue)
+  
+  let queryString = "";
+  let filterArray = search ? search.split("&") : [];
+  
+  if (filterArray.includes(encodedFilterValue)) {
+    filterArray = filterArray.filter(
+      (singleSearchItem) => singleSearchItem !== encodedFilterValue
+    );
+  } else {
+    filterArray.push(encodedFilterValue);
+  }
+  filterArray.forEach((singleFilter, index) => {
+    
+    if (index + 1 !== filterArray.length) {
+      queryString += `${singleFilter}&`;
+    } else {
+      queryString += `${singleFilter}`;
+    }
+  });
+  debugger
+  // Remove the parameter if the search string is blank
+  if (queryString === "") {
+    history.replaceState(null, null, window.location.pathname);
+  } else {
+    // Replace the current URL with the updated search string
+    history.replaceState(null, null, `?${queryString}`);
+  }
+ 
+};
+
