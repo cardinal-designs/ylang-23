@@ -68,6 +68,7 @@
   import CollectionAccordion from './CollectionAccordion.vue'
   import CollectionActiveFilters from './CollectionActiveFilters.vue'
   import CollectionFiltersSkeleton from './CollectionFiltersSkeleton.vue'
+  import {  toggleFilterItems } from '../../helpers/util';
 
   export default {
     name: 'CollectionFilters',
@@ -156,7 +157,8 @@
     },
     methods: {
       updateFilterArray(e) {
-        const { value } = e.target
+        const {value} = e.target
+        toggleFilterItems(value)
         // if the user click on a already selected filter
         if (this.currentFilterArray.indexOf(value) >= 0) {
           // Capturing the current selected filters

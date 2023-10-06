@@ -14,6 +14,7 @@
   import { unhandleize } from 'scripts/filters/string.js'
   import Icon from '../basic/Icon.vue'
   import VLink from '../buttons/VLink.vue'
+import { toggleFilterItems } from '../../helpers/util'
 
   export default {
     name: 'CollectionActiveFiltersB',
@@ -32,6 +33,7 @@
       },
       removeFilter(filter) {
         let newCurrentFilters = []
+        toggleFilterItems(filter)
         if (this.currentFilters.length > 1) {
           newCurrentFilters = this.currentFilters.splice(this.currentFilters.indexOf(filter), 1)
         }
@@ -40,6 +42,7 @@
       removeAllFilters() {
         let newCurrentFilters = []
         this.$store.dispatch('collections/updateFilters', newCurrentFilters)
+        history.replaceState(null, null, window.location.pathname);
       }
     }
   }

@@ -34,7 +34,7 @@
           {% for value in filter.values %}
             {
               "name": "{{ value.value }}",
-              "url": "{{ value.url_to_add | split: '?' | last }}"
+              "url": "{{ filter.param_name }}={{ value.value | url_encode }}"
             }{%- unless forloop.last -%},{%- endunless -%}
           {% endfor %}
         ]
