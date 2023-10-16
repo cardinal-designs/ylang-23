@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="{{ settings.color_accent }}">
 {%- include 'social-meta-tags' -%}
-{% if template contains 'collection' %}
+{% if template.name contains 'collection' %}
   <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
 {% else %}
   <link rel="canonical" href="{{ canonical_url }}" />
