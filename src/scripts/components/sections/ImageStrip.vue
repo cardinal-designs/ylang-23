@@ -29,7 +29,6 @@
               img.itp__img(
                 :src="imageSize(block.settings.itp_logo, '600x')"
                 :alt="block.itp_logo_alt"
-                loading="lazy"
               )
 </template>
 
