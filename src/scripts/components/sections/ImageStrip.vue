@@ -19,15 +19,15 @@
           )
             picture.itp__img-wrap
               source(
-                :srcset="imageSize(block.settings.itp_logo, '1000x')"
+                :srcset="block.settings.itp_logo"
                 media="(min-width: 992px)"
               )
               source(
-                :srcset="imageSize(block.settings.itp_logo, '1000x')"
+                :srcset="block.settings.itp_logo"
                 media="(min-width: 768px)"
               )
               img.itp__img(
-                :src="imageSize(block.settings.itp_logo, '767px')"
+                :src="imageSize(block.settings.itp_logo, '600x')"
                 :alt="block.itp_logo_alt"
               )
 </template>
