@@ -158,7 +158,7 @@
     methods: {
       updateFilterArray(e) {
         const {value} = e.target
-        toggleFilterItems(value)
+       // toggleFilterItems(value)
         // if the user click on a already selected filter
         if (this.currentFilterArray.indexOf(value) >= 0) {
           // Capturing the current selected filters
