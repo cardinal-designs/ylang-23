@@ -33,7 +33,7 @@ import { toggleFilterItems } from '../../helpers/util'
       },
       removeFilter(filter) {
         let newCurrentFilters = []
-        toggleFilterItems(filter)
+      //  toggleFilterItems(filter)
         if (this.currentFilters.length > 1) {
           newCurrentFilters = this.currentFilters.splice(this.currentFilters.indexOf(filter), 1)
         }
