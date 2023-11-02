@@ -37,7 +37,8 @@ const mutations = {
     cacheStateToSessionStorage(state);
   },
   SET_CURRENT_FILTERS: (state, filters) => {
-    state.currentFilters = filters;
+    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm') && !str.startsWith("_kx="));
+    state.currentFilters = filterWithoutUTM;
     cacheStateToSessionStorage(state);
   },
   SET_CURRENT_PRODUCTS: (state, products) => {
@@ -63,10 +64,11 @@ const mutations = {
   SET_STATE_FROM_CACHE: (state, cacheState) => {
     const search = window.location.search
     const filters = search ? search.replace('?','').split('&'):[]
+    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm') && !str.startsWith("_kx="));
     state.currentHandle = cacheState.currentHandle;
     state.currentPage = cacheState.currentPage;
     state.currentSort = cacheState.currentSort;
-    state.currentFilters = filters;
+    state.currentFilters = filterWithoutUTM;
     state.currentTotal = cacheState.currentTotal;
     state.paginationAmount = cacheState.paginationAmount;
     state.currentScrollPos = cacheState.currentScrollPos;
