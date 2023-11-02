@@ -37,8 +37,7 @@ const mutations = {
     cacheStateToSessionStorage(state);
   },
   SET_CURRENT_FILTERS: (state, filters) => {
-    debugger
-    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm'));
+    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm') && !str.startsWith("_kx="));
     state.currentFilters = filterWithoutUTM;
     cacheStateToSessionStorage(state);
   },
@@ -65,8 +64,7 @@ const mutations = {
   SET_STATE_FROM_CACHE: (state, cacheState) => {
     const search = window.location.search
     const filters = search ? search.replace('?','').split('&'):[]
-    debugger
-    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm'));
+    const filterWithoutUTM=filters.filter((str) => !str.startsWith('utm') && !str.startsWith("_kx="));
     state.currentHandle = cacheState.currentHandle;
     state.currentPage = cacheState.currentPage;
     state.currentSort = cacheState.currentSort;
@@ -224,7 +222,6 @@ const filterSortUrlBuilder = (isJSON = true, page) => {
   const pageToRequest = page || state.currentPage;
   let url = '';
   let baseUrl = `/collections/${state.currentHandle}`;
-  debugger
   if (state.currentFilters.length) {
     let handleizedArray = state.currentFilters;
     let concatenatedTags = handleizedArray.join('&');
