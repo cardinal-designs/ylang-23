@@ -183,9 +183,8 @@ export default {
       text-transform: uppercase;
       line-height: 100%;
       font-size: 1.25rem;
-      font-family: korolev,sans-serif;
+      font-family: $font-family-secondary;
       letter-spacing: 1px;
-      font-style: italic;
     }
 }
 .icon.icon--arrow_long_right {
